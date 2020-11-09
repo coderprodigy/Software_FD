@@ -1,4 +1,4 @@
-#Sat Sep 19 11:22:49 IST 2020
-base.0=/Users/dilreet/SwiggyUI/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Mon Nov 09 19:47:12 IST 2020
+base.0=/Users/dilreet/food-donation/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
