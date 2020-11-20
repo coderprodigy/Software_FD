@@ -42,7 +42,7 @@ class TopPicksForYouView extends StatelessWidget {
                   );
                 },
                 child: Container(
-                  margin: const EdgeInsets.all(10.0),
+                  margin: const EdgeInsets.all(5.0),
                   width: 100.0,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,

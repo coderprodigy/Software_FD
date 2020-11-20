@@ -1,4 +1,4 @@
-#Mon Nov 09 19:47:12 IST 2020
+#Fri Nov 20 22:49:55 IST 2020
 base.0=/Users/dilreet/food-donation/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
