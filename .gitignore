@@ -60,17 +60,26 @@ unlinked.ds
 unlinked_spec.ds
 
 # Android related
+<<<<<<< HEAD
 */android/*/gradle-wrapper.jar
+=======
+**/android/**/gradle-wrapper.jar
+>>>>>>> 5b3667d5097aa9b9f6023d68f3ff35ee3e397605
 **/android/.gradle
 **/android/captures/
 **/android/gradlew
 **/android/gradlew.bat
 **/android/local.properties
+<<<<<<< HEAD
 */android/*/GeneratedPluginRegistrant.java
+=======
+**/android/**/GeneratedPluginRegistrant.java
+>>>>>>> 5b3667d5097aa9b9f6023d68f3ff35ee3e397605
 **/android/key.properties
 *.jks
 
 # iOS/XCode related
+<<<<<<< HEAD
 */ios//.mode1v3
 */ios//.mode2v3
 */ios//.moved-aside
@@ -86,6 +95,23 @@ unlinked_spec.ds
 */ios/*/.symlinks/
 */ios/*/profile
 */ios/*/xcuserdata
+=======
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+>>>>>>> 5b3667d5097aa9b9f6023d68f3ff35ee3e397605
 **/ios/.generated/
 **/ios/Flutter/.last_build_id
 **/ios/Flutter/App.framework
@@ -97,7 +123,11 @@ unlinked_spec.ds
 **/ios/Flutter/flutter_assets/
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
+<<<<<<< HEAD
 */ios/Runner/GeneratedPluginRegistrant.
+=======
+**/ios/Runner/GeneratedPluginRegistrant.*
+>>>>>>> 5b3667d5097aa9b9f6023d68f3ff35ee3e397605
 
 # macOS
 **/macos/Flutter/GeneratedPluginRegistrant.swift
@@ -112,9 +142,16 @@ coverage/
 app.*.symbols
 
 # Exceptions to above rules.
+<<<<<<< HEAD
 !*/ios/*/default.mode1v3
 !*/ios/*/default.mode2v3
 !*/ios/*/default.pbxuser
 !*/ios/*/default.perspectivev3
+=======
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+>>>>>>> 5b3667d5097aa9b9f6023d68f3ff35ee3e397605
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
