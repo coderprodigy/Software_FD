@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Mon Nov 09 20:10:39 IST 2020
 base.0=C\:\\Users\\shivanu sharma\\Desktop\\development\\project\\Software_FD\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+=======
+#Mon Nov 09 19:47:12 IST 2020
+base.0=/Users/dilreet/food-donation/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+>>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\shivanu sharma\\Desktop\\development\\project\\Software_FD\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\shivanu sharma\\Desktop\\development\\project\\Software_FD\\android\\app\\src\\main\\res\\values\\styles.xml",
+=======
+            "outputFile": "/Users/dilreet/food-donation/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/dilreet/food-donation/android/app/src/main/res/values/styles.xml",
+>>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
