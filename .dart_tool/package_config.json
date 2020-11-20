@@ -3,431 +3,259 @@
   "packages": [
     {
       "name": "async",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.4.2",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.4.2",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "boolean_selector",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.0.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.0.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
       "name": "characters",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.0.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.0.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
     {
       "name": "charcode",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.3",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.3",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "clock",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.0.1",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.0.1",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "collection",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.13",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.13",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "convert",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "1.17"
     },
     {
       "name": "crypto",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.4",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.4",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "cupertino_icons",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "fake_async",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.1.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.1.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "file",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/file-5.2.1",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/file-5.2.1",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "flutter",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/packages/flutter",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/packages/flutter",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
     {
       "name": "flutter_page_indicator",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_page_indicator-0.0.3",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_page_indicator-0.0.3",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "flutter_rating_bar",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_rating_bar-3.0.1+1",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_rating_bar-3.0.1+1",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.5"
     },
     {
       "name": "flutter_swiper",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_swiper-1.1.6",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_swiper-1.1.6",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "flutter_test",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/packages/flutter_test",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/packages/flutter_test",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "google_fonts",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "http",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
       "name": "http_parser",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "intl",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.5"
     },
     {
       "name": "matcher",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.8",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.8",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
       "name": "meta",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "1.12"
     },
     {
       "name": "path",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.7.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.7.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "path_provider",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.11",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.11",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "path_provider_linux",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "path_provider_macos",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "path_provider_platform_interface",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.2",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.2",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "pedantic",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "platform",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "1.24"
     },
     {
       "name": "plugin_platform_interface",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "process",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/process-3.0.13",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/process-3.0.13",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "shimmer",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/shimmer-1.1.1",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/shimmer-1.1.1",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "1.20"
     },
     {
       "name": "sky_engine",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/bin/cache/pkg/sky_engine",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/bin/cache/pkg/sky_engine",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "1.11"
     },
     {
       "name": "source_span",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.7.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.7.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
     {
       "name": "stack_trace",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.5",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.5",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "stream_channel",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.0.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.0.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "string_scanner",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.0.5",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.0.5",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "term_glyph",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.1.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.1.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "1.8"
     },
     {
       "name": "test_api",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.17",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.17",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "transformer_page_view",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/transformer_page_view-0.1.6",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/transformer_page_view-0.1.6",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "typed_data",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.2.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.2.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
       "name": "vector_math",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "xdg_directories",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/shivanu%20sharma/Desktop/development/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.0",
-=======
       "rootUri": "file:///Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.0",
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
@@ -438,13 +266,7 @@
       "languageVersion": "2.7"
     }
   ],
-<<<<<<< HEAD
-  "generated": "2020-11-09T14:39:14.074813Z",
-  "generator": "pub",
-  "generatorVersion": "2.9.1"
-=======
-  "generated": "2020-11-09T12:44:20.152340Z",
+  "generated": "2020-11-20T17:43:44.548394Z",
   "generator": "pub",
   "generatorVersion": "2.9.0"
->>>>>>> f7ea8bfdd779471895f105c18d1a767dfc0c2141
 }
