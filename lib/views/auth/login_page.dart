@@ -202,12 +202,12 @@ class _WelcomeBackPageState extends State<WelcomeBackPage> {
       body: Stack(
         children: <Widget>[
 
-          Container(
-            decoration: BoxDecoration(
-              image: DecorationImage(image: AssetImage('assets/background.jpg'),
-                  fit: BoxFit.cover)
-            ),
-          ),
+          // Container(
+          //   decoration: BoxDecoration(
+          //     image: DecorationImage(image: AssetImage('assets/background.jpg'),
+          //         fit: BoxFit.cover)
+          //   ),
+          // ),
           Container(
             decoration: BoxDecoration(
                 color: Colors.lightBlueAccent,
