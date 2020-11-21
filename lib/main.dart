@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-
+import 'views/auth/login_page.dart';
 import 'shared/app_theme.dart';
-import 'views/home_bottom_navigation_screen.dart';
+// import 'views/home_bottom_navigation_screen.dart';
 
 void main() { 
   // run app is used to build the widget tree, run the app and takes 
@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'SwiggyUI',
       debugShowCheckedModeBanner: false,
       theme: appPrimaryTheme(),
-      home: HomeBottomNavigationScreen(),
+      // home: HomeBottomNavigationScreen(),
+      home:WelcomeBackPage(),
     );
   }
 }
