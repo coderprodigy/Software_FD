@@ -25,7 +25,7 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                 child: Container(
                   width: 10.0,
                   height: 140.0,
-                  color: swiggyOrange,
+                  color: Colors.blueAccent,
                 ),
               ),
               UIHelper.horizontalSpaceMedium(),
@@ -33,18 +33,18 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Text(
-                      'We are now deliverying food groceries and other essentials.',
+                      'FIGHT HUNGER\nSPARK CHANGE.',
                       style: Theme.of(context).textTheme.headline4,
                     ),
                     UIHelper.verticalSpaceSmall(),
-                    Text(
+                    /*Text(
                       'Food & Genie service (Mon-Sat)-6:00 am to 9:00pm. Groceries & Meat (Mon-Sat)-6:00 am to 6:00pm. Dairy (Mon-Sat)-6:00 am to 6:00pm (Sun)-6:00 am to 12:00 pm',
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.bodyText1.copyWith(
                             fontSize: 16.0,
                             color: Colors.grey[800],
                           ),
-                    )
+                    )*/
                   ],
                 ),
               )
@@ -68,7 +68,7 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Text(
-                                'Restaurants',
+                                'DONORS',
                                 style: Theme.of(context)
                                     .textTheme
                                     .headline4
@@ -123,13 +123,13 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                 ),
               ),
               Positioned(
-                top: -5.0,
+                top: -3.0,
                 right: -10.0,
                 child: ClipOval(
                   child: Image.asset(
-                    'assets/images/food1.jpg',
-                    width: 160.0,
-                    height: 160.0,
+                    'assets/images/food11.jpg',
+                    width: 130.0,
+                    height: 100.0,
                     fit: BoxFit.fill,
                   ),
                 ),

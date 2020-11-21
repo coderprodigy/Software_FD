@@ -5,7 +5,7 @@ import '../../utils/app_colors.dart';
 import '../../utils/ui_helper.dart';
 import '../../widgets/spotlight_best_top_food_item.dart';
 
-class TopOffersViews extends StatelessWidget {
+/*class TopOffersViews extends StatelessWidget {
   final restaurants = SpotlightBestTopFood.getTopRestaurants();
 
   @override
@@ -93,4 +93,4 @@ class TopOffersViews extends StatelessWidget {
       ),
     );
   }
-}
+}*/

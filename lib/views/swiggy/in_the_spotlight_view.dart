@@ -10,7 +10,7 @@ class InTheSpotlightView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 15.0),
-      height: 330.0,
+      height: 400.0,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
@@ -23,7 +23,7 @@ class InTheSpotlightView extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               itemCount: restaurants.length,
               itemBuilder: (context, index) => Container(
-                width: MediaQuery.of(context).size.width / 1.1,
+                width: MediaQuery.of(context).size.width / 1.0,
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[

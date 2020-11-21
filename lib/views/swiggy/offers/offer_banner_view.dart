@@ -5,10 +5,10 @@ import '../groceries/grocery_screen.dart';
 
 class OfferBannerView extends StatelessWidget {
   final List<String> images = [
-    'assets/images/banner1.jpg',
-    'assets/images/banner2.jpg',
-    'assets/images/banner3.jpg',
-    'assets/images/banner5.jpg',
+    'assets/images/banner10.jpg',
+    'assets/images/banner9.jpg',
+    'assets/images/banner11.jpg',
+    'assets/images/banner12.jpg',
   ];
   @override
   Widget build(BuildContext context) {
