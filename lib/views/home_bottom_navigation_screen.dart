@@ -44,7 +44,7 @@ class _HomeBottomNavigationScreenState
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            title: Text('SWIGGY'),
+            title: Text('Home'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),

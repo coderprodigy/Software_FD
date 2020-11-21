@@ -63,7 +63,7 @@ class _SearchScreenState extends State<SearchScreen>
               ),
               UIHelper.verticalSpaceExtraSmall(),
               Container(
-                width: MediaQuery.of(context).size.width / 1.6,
+                width: MediaQuery.of(context).size.width / 1.1,
                 child: TabBar(
                   unselectedLabelColor: Colors.grey,
                   labelColor: Colors.black,
@@ -80,7 +80,7 @@ class _SearchScreenState extends State<SearchScreen>
                   indicatorSize: TabBarIndicatorSize.tab,
                   tabs: [
                     Tab(
-                      child: Text('Restaurant'),
+                      child: Text('DONATORS'),
                     ),
                     Tab(
                       child: Text('Dishes'),

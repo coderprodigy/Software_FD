@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:swiggy_ui/models/popular_category.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 
-class PopularCategoriesView extends StatelessWidget {
+/*class PopularCategoriesView extends StatelessWidget {
   final categories = PopularCategory.getPopularCategories();
 
   @override
@@ -71,4 +71,4 @@ class PopularCategoriesView extends StatelessWidget {
       ),
     );
   }
-}
+}*/

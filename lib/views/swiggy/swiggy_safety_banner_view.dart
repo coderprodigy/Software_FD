@@ -43,7 +43,7 @@ class SwiggySafetyBannerView extends StatelessWidget {
               itemCount: 3,
               itemBuilder: (context, index) => Container(
                 margin: const EdgeInsets.only(right: 10.0),
-                padding: const EdgeInsets.all(10.0),
+                padding: const EdgeInsets.all(8.0),
                 width: MediaQuery.of(context).size.width / 1.2,
                 decoration: BoxDecoration(
                   color: Colors.orange[100],
@@ -70,7 +70,7 @@ class SwiggySafetyBannerView extends StatelessWidget {
                                 ),
                                 UIHelper.verticalSpaceExtraSmall(),
                                 Text(
-                                  'Have your order dropped of at your door or gate for added safety',
+                                  'abc',
                                   style: Theme.of(context).textTheme.bodyText1,
                                 ),
                               ],

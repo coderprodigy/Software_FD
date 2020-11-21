@@ -35,7 +35,7 @@ class SwiggyScreen extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       FoodGroceriesAvailabilityView(),
-                      TopPicksForYouView(),
+                      //TopPicksForYouView(),
                       OfferBannerView(),
                       CustomDividerView(),
                       IndianFoodView(),
@@ -44,17 +44,17 @@ class SwiggyScreen extends StatelessWidget {
                       CustomDividerView(),
                       PopularBrandsView(),
                       CustomDividerView(),
-                      SwiggySafetyBannerView(),
-                      BestInSafetyViews(),
+                      //SwiggySafetyBannerView(),
+                      //BestInSafetyViews(),
                       CustomDividerView(),
-                      TopOffersViews(),
+                      //TopOffersViews(),
                       CustomDividerView(),
                       GenieView(),
                       CustomDividerView(),
-                      PopularCategoriesView(),
+                      //PopularCategoriesView(),
                       CustomDividerView(),
                       RestaurantVerticalListView(
-                        title: 'Popular Restaurants',
+                        title: 'Regular Donor',
                         restaurants:
                             SpotlightBestTopFood.getPopularAllRestaurants(),
                       ),
@@ -101,13 +101,13 @@ class SwiggyScreen extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  'LIVE\nFOR\nFOOD',
+                                  'DONATE\nFOR\nLIFE',
                                   style: Theme.of(context)
                                       .textTheme
                                       .headline4
                                       .copyWith(
                                         color: Colors.grey[400],
-                                        fontSize: 80.0,
+                                        fontSize: 60.0,
                                         letterSpacing: 0.2,
                                         height: 0.8,
                                       ),
@@ -121,7 +121,7 @@ class SwiggyScreen extends StatelessWidget {
                                       .copyWith(color: Colors.grey),
                                 ),
                                 Text(
-                                  'SWIGGY HQ, BANGALORE',
+                                  'DILREET,SAURABH,ABHIRATH,SHIVANU',
                                   style: Theme.of(context)
                                       .textTheme
                                       .bodyText1
@@ -169,28 +169,28 @@ class SwiggyScreen extends StatelessWidget {
         child: Row(
           children: <Widget>[
             Text(
-              'Other',
+              'DONATE',
               style: Theme.of(context)
                   .textTheme
                   .headline4
-                  .copyWith(fontSize: 21.0),
+                  .copyWith(fontSize: 18.0),
             ),
-            UIHelper.horizontalSpaceExtraSmall(),
+            /*UIHelper.horizontalSpaceExtraSmall(),
             Padding(
               padding: const EdgeInsets.only(top: 4.0),
               child: Icon(Icons.keyboard_arrow_down),
-            ),
+            ),*/
             Spacer(),
-            Icon(Icons.local_offer),
+            /*Icon(Icons.local_offer),*/
             UIHelper.horizontalSpaceExtraSmall(),
             InkWell(
               child: Container(
                 padding: const EdgeInsets.all(5.0),
                 child: Text(
-                  'Offer',
+                  'FOOD',
                   style: Theme.of(context)
                       .textTheme
-                      .subtitle2
+                      .headline4
                       .copyWith(fontSize: 18.0),
                 ),
               ),
