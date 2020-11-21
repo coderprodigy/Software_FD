@@ -206,12 +206,12 @@ class _RegisterPageState extends State<RegisterPage> {
 
               body: Stack(
                 children: <Widget>[
-                  Container(
-                    decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage('assets/background.jpg'),
-                            fit: BoxFit.cover)
-                    ),
-                  ),
+                  // Container(
+                  //   decoration: BoxDecoration(
+                  //       image: DecorationImage(image: AssetImage('assets/background.jpg'),
+                  //           fit: BoxFit.cover)
+                  //   ),
+                  // ),
                   Container(
                     decoration: BoxDecoration(
                       // color: transparentYellow,
