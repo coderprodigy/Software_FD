@@ -75,11 +75,11 @@ class SpotlightBestTopFoodItem extends StatelessWidget {
                 UIHelper.verticalSpaceExtraSmall(),
                 Row(
                   children: <Widget>[
-                    Icon(
+                    /*Icon(
                       Icons.star,
                       size: 14.0,
                       color: Colors.grey[600],
-                    ),
+                    ),*/
                     Text(restaurant.ratingTimePrice)
                   ],
                 )
