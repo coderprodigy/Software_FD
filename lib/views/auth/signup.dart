@@ -1,6 +1,7 @@
 import './../home_bottom_navigation_screen.dart';
 // import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
+import './../home_donor.dart';
 
 // import 'forgot_password_page.dart';
 
@@ -52,7 +53,7 @@ class _RegisterPageState extends State<RegisterPage> {
       child: InkWell(
         onTap: () {
           Navigator.of(context)
-              .push(MaterialPageRoute(builder: (_) => HomeBottomNavigationScreen()));
+              .push(MaterialPageRoute(builder: (_) => HomeBottomNavigationScreenTwo()));
         },
         child: Container(
           width: MediaQuery.of(context).size.width / 3.1,

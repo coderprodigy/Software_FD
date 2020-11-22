@@ -1,6 +1,8 @@
 
 // import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
+//import 'package:swiggy_ui/views/home_donor.dart';
+import './../home_donor.dart';
 import './../home_bottom_navigation_screen.dart';
 import 'signup.dart';
 
@@ -53,7 +55,7 @@ class _WelcomeBackPageState extends State<WelcomeBackPage> {
       child: InkWell(
         onTap: () {
           Navigator.of(context)
-              .push(MaterialPageRoute(builder: (_) => HomeBottomNavigationScreen()));
+              .push(MaterialPageRoute(builder: (_) => HomeBottomNavigationScreenTwo()));
         },
         child: Container(
           width: MediaQuery.of(context).size.width / 3.1,
