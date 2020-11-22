@@ -11,7 +11,7 @@ class RestaurantDetailScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Namma Veedu Vasanta Bhavan'),
+          title: Text('Hostel I'),
           actions: <Widget>[
             Icon(Icons.favorite_border),
             UIHelper.horizontalSpaceSmall(),
@@ -21,7 +21,7 @@ class RestaurantDetailScreen extends StatelessWidget {
           bottom: TabBar(
             indicatorColor: Colors.black,
             tabs: <Widget>[
-              Tab(child: Text('Order Now')),
+              Tab(child: Text('Donate Now')),
               Tab(child: Text('Safety Standards')),
             ],
           ),
@@ -51,45 +51,45 @@ class _OrderNowView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    'Namma Veedu Vasanta Bhavan',
+                    'Hostel I',
                     style: Theme.of(context)
                         .textTheme
                         .subtitle2
                         .copyWith(fontWeight: FontWeight.bold, fontSize: 16.0),
                   ),
                   UIHelper.verticalSpaceSmall(),
-                  Text('South Indian',
-                      style: Theme.of(context).textTheme.bodyText1),
+                  /*Text('South Indian',
+                      style: Theme.of(context).textTheme.bodyText1),*/
                   UIHelper.verticalSpaceExtraSmall(),
-                  Text('Velachery Main Road, Madipakkam',
+                  Text('Thapar University, \nPatiala',
                       style: Theme.of(context).textTheme.bodyText1),
                   UIHelper.verticalSpaceMedium(),
                   CustomDividerView(dividerHeight: 1.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      _buildVerticalStack(context, '4.1', 'Packaging 80%'),
-                      _buildVerticalStack(context, '29 mins', 'Delivery Time'),
-                      _buildVerticalStack(context, 'Rs150', 'For Two'),
+                      _buildVerticalStack(context, '19 mins', '2km'),
+                      _buildVerticalStack(context, '', ''),
+                      _buildVerticalStack(context, '', ''),
                     ],
                   ),
-                  CustomDividerView(dividerHeight: 1.0),
-                  UIHelper.verticalSpaceMedium(),
-                  Column(
+                  //CustomDividerView(dividerHeight: 1.0),
+                  //UIHelper.verticalSpaceMedium(),
+                  /* Column(
                     children: <Widget>[
                       _buildOfferTile(
                           context, '30% off up to Rs75 | Use code SWIGGYIT'),
                       _buildOfferTile(context,
                           '20% off up to Rs100 with SBI credit cards, once per week | Use code 100SBI')
                     ],
-                  ),
-                  UIHelper.verticalSpaceSmall(),
+                  ),*/
+                  //UIHelper.verticalSpaceSmall(),
                 ],
               ),
             ),
             CustomDividerView(dividerHeight: 15.0),
             Container(
-              height: 80.0,
+              height: 40.0,
               padding: const EdgeInsets.all(10.0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -117,15 +117,15 @@ class _OrderNowView extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.all(10.0),
-              child: Text(
+              /*child: Text(
                 'Recommended',
                 style: Theme.of(context)
                     .textTheme
                     .subtitle2
                     .copyWith(fontSize: 18.0),
-              ),
+              ),*/
             ),
-            _RecommendedFoodView(),
+            //_RecommendedFoodView(),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Breakfast',
@@ -169,11 +169,11 @@ class _OrderNowView extends StatelessWidget {
   Container _buildVerticalStack(
           BuildContext context, String title, String subtitle) =>
       Container(
-        height: 60.0,
+        height: 40.0,
         width: (MediaQuery.of(context).size.width / 3) - 20,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
               title,
@@ -251,11 +251,11 @@ class _RecommendedFoodView extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
-                        Text(foods[index].price,
+                        /*Text(foods[index].price,
                             style: Theme.of(context)
                                 .textTheme
                                 .bodyText1
-                                .copyWith(fontSize: 14.0)),
+                                .copyWith(fontSize: 14.0)),*/
                         AddBtnView()
                       ],
                     )
@@ -339,13 +339,13 @@ class _FoodListView extends StatelessWidget {
                               style: Theme.of(context).textTheme.bodyText1,
                             ),
                             UIHelper.verticalSpaceSmall(),
-                            Text(
+                            /*Text(
                               foods[index].price,
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyText1
                                   .copyWith(fontSize: 14.0),
-                            ),
+                            ),*/
                             UIHelper.verticalSpaceMedium(),
                             foods[index].desc != null
                                 ? Text(
