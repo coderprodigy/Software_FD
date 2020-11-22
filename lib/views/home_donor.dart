@@ -4,7 +4,7 @@ import 'package:swiggy_ui/views/restaurant_add.dart';
 
 import '../utils/app_colors.dart';
 import 'account/account_screen.dart';
-import 'cart/cart_screen.dart';
+import 'cart/cart_screen_2.dart';
 import 'search/search_screen.dart';
 import 'swiggy/swiggy_screen_2.dart';
 
@@ -22,7 +22,7 @@ class _HomeBottomNavigationScreenStateTwo
     SwiggyScreenTwo(),
     // SearchScreen(),
     MyHomePageTwo(),
-    CartScreen(),
+    CartScreentwo(),
     AccountScreen(),
   ]; 
 
@@ -52,8 +52,8 @@ class _HomeBottomNavigationScreenStateTwo
             title: Text('Home'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            title: Text('SEARCH'),
+            icon: Icon(Icons.add_circle),
+            title: Text('Donate'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add_shopping_cart),

@@ -1,7 +1,8 @@
 import 'dart:io';
-
+import './home_donor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:swiggy_ui/views/swiggy/swiggy_screen_2.dart';
 import '../widgets/new_transactions.dart';
 import '../widgets/transaction_list.dart';
 import '../models/foodlist.dart';
@@ -148,6 +149,13 @@ class _MyHomePageStateTwo extends State<MyHomePageTwo> {
             ),
           )
         : AppBar(
+          leading: IconButton(
+    icon: Icon(Icons.arrow_back, color: Colors.white),
+               onPressed: () {
+          Navigator.of(context)
+              .push(MaterialPageRoute(builder: (_) => HomeBottomNavigationScreenTwo()));
+        },
+  ),
           backgroundColor: Colors.blueAccent,
             title: const Text('Food Donation'),
           //   theme: ThemeData(
