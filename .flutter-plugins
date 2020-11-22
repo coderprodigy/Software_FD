@@ -1,10 +1,4 @@
 # This is a generated file; do not edit or check into version control.
-<<<<<<< HEAD
-path_provider=C:\\Users\\shivanu sharma\\Desktop\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.11\\
-path_provider_linux=C:\\Users\\shivanu sharma\\Desktop\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-0.0.1+2\\
-path_provider_macos=C:\\Users\\shivanu sharma\\Desktop\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+3\\
-=======
-path_provider=D:\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.11\\
-path_provider_linux=D:\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-0.0.1+2\\
-path_provider_macos=D:\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+3\\
->>>>>>> cbec7f033b524864eb136d28fbd6d9074c41e67f
+path_provider=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.11/
+path_provider_linux=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+path_provider_macos=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3/
