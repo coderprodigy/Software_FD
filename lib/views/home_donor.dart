@@ -1,25 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:swiggy_ui/views/restaurant_add.dart';
+//import 'package:swiggy_ui/views/swiggy/swiggy_screen_2.dart';
 
 import '../utils/app_colors.dart';
 import 'account/account_screen.dart';
 import 'cart/cart_screen.dart';
 import 'search/search_screen.dart';
-import 'swiggy/swiggy_screen.dart';
+import 'swiggy/swiggy_screen_2.dart';
 
-class HomeBottomNavigationScreen extends StatefulWidget {
+
+class HomeBottomNavigationScreenTwo extends StatefulWidget {
   @override
-  _HomeBottomNavigationScreenState createState() =>
-      _HomeBottomNavigationScreenState();
+  _HomeBottomNavigationScreenStateTwo createState() =>
+      _HomeBottomNavigationScreenStateTwo();
 }
 
-class _HomeBottomNavigationScreenState
-    extends State<HomeBottomNavigationScreen> {
+
+class _HomeBottomNavigationScreenStateTwo
+    extends State<HomeBottomNavigationScreenTwo> {
   final List<Widget> _children = [
-    SwiggyScreen(),
-    SearchScreen(),
+    SwiggyScreenTwo(),
+    // SearchScreen(),
+    MyHomePageTwo(),
     CartScreen(),
     AccountScreen(),
-  ];
+  ]; 
 
   int selectedIndex = 0;
 
@@ -47,8 +52,8 @@ class _HomeBottomNavigationScreenState
             title: Text('Home'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            title: Text('SEARCH'),
+            icon: Icon(Icons.add_circle),
+            title: Text('Donate'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add_shopping_cart),

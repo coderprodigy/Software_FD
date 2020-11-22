@@ -19,7 +19,7 @@ import 'swiggy_safety_banner_view.dart';
 import 'top_offer_view.dart';
 import 'top_picks_for_you_view.dart';
 
-class SwiggyScreen extends StatelessWidget {
+class SwiggyScreenTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,10 +38,10 @@ class SwiggyScreen extends StatelessWidget {
                       //TopPicksForYouView(),
                       OfferBannerView(),
                       CustomDividerView(),
-                      IndianFoodView(),
-                      CustomDividerView(),
-                      InTheSpotlightView(),
-                      CustomDividerView(),
+                      //IndianFoodView(),
+                      //CustomDividerView(),
+                      //InTheSpotlightView(),
+                      //CustomDividerView(),
                       PopularBrandsView(),
                       CustomDividerView(),
                       //SwiggySafetyBannerView(),
@@ -52,9 +52,9 @@ class SwiggyScreen extends StatelessWidget {
                       GenieView(),
                       CustomDividerView(),
                       //PopularCategoriesView(),
-                      CustomDividerView(),
+                      //CustomDividerView(),
                       RestaurantVerticalListView(
-                        title: 'Regular Donor',
+                        title: 'Regular Donor 2',
                         restaurants:
                             SpotlightBestTopFood.getPopularAllRestaurants(),
                       ),

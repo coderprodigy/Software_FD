@@ -3,7 +3,7 @@ import 'package:swiggy_ui/models/top_picks_food.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/views/swiggy/restaurants/restaurant_detail_screen.dart';
 
-class TopPicksForYouView extends StatelessWidget {
+/*class TopPicksForYouView extends StatelessWidget {
   final foods = TopPicksFood.getTopPicksfoods();
 
   @override
@@ -93,4 +93,4 @@ class TopPicksForYouView extends StatelessWidget {
       ),
     );
   }
-}
+}*/

@@ -72,7 +72,7 @@ class _AppBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Text(
-                'VINOTH',
+                'BINOD',
                 style: Theme.of(context)
                     .textTheme
                     .headline6

@@ -18,10 +18,10 @@ class GenieView extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Text('Genie', style: Theme.of(context).textTheme.headline4),
+                  Text("We're in it together", style: Theme.of(context).textTheme.headline4),
                   UIHelper.verticalSpaceSmall(),
                   Text(
-                    'Anything you need, deliverd.\nPick-up, Drop or Buy anything,\nfrom anywhere in your city',
+                    'We can be the\nGeneration that ends\nHunger',
                     style: Theme.of(context)
                         .textTheme
                         .bodyText1
@@ -39,7 +39,7 @@ class GenieView extends StatelessWidget {
             ],
           ),
           UIHelper.verticalSpaceMedium(),
-          DottedSeperatorView(),
+         /* DottedSeperatorView(),
           UIHelper.verticalSpaceMedium(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -61,14 +61,14 @@ class GenieView extends StatelessWidget {
                 onTap: () {},
               )
             ],
-          )
+          )*/
         ],
       ),
     );
   }
 }
 
-class _GenieCardView extends StatelessWidget {
+/*class _GenieCardView extends StatelessWidget {
   final String title;
   final String desc;
   final String image;
@@ -121,7 +121,7 @@ class _GenieCardView extends StatelessWidget {
                       alignment: Alignment.center,
                       color: swiggyOrange,
                       height: 25.0,
-                      width: 25.0,
+                      width: 15.0,
                       child: Icon(
                         Icons.arrow_forward_ios,
                         size: 12.0,
@@ -135,8 +135,8 @@ class _GenieCardView extends StatelessWidget {
               UIHelper.horizontalSpaceMedium(),
               Image.asset(
                 image,
-                height: 80.0,
-                width: 80.0,
+                height: 60.0,
+                width: 60.0,
                 fit: BoxFit.cover,
               ),
               UIHelper.horizontalSpaceExtraSmall(),
@@ -146,4 +146,4 @@ class _GenieCardView extends StatelessWidget {
       ),
     );
   }
-}
+}*/
