@@ -60,7 +60,7 @@ class SwiggyScreen extends StatelessWidget {
                       ),
                       CustomDividerView(),
                       RestaurantVerticalListView(
-                        title: 'Donors Nearby',
+                        title: 'DONORS Nearby',
                         restaurants:
                             SpotlightBestTopFood.getPopularAllRestaurants(),
                         isAllRestaurantNearby: true,
@@ -73,7 +73,7 @@ class SwiggyScreen extends StatelessWidget {
                         child: RaisedButton(
                           color: darkOrange,
                           child: Text(
-                            'See all restaurants',
+                            'See all Donors',
                             style: Theme.of(context)
                                 .textTheme
                                 .subtitle2

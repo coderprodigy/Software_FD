@@ -52,14 +52,22 @@ class SearchFoodListItemView extends StatelessWidget {
                       .textTheme
                       .bodyText1
                       .copyWith(color: Colors.grey[600], fontSize: 13.5)),
+              Text(
+                  food.coupon,
+                  style: Theme.of(context)
+                      .textTheme
+                      .bodyText1
+                      .copyWith(color: Colors.red[900], fontSize: 13.0),
+                ),
+              
               UIHelper.verticalSpaceSmall(),
               Row(
                 children: <Widget>[
-                  Icon(
+                  /*Icon(
                     Icons.star,
                     size: 14.0,
                     color: Colors.grey[600],
-                  ),
+                  ),*/
                   Text(food.ratingTimePrice)
                 ],
               )
