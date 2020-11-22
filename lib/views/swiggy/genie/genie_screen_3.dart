@@ -4,7 +4,7 @@ import 'package:swiggy_ui/utils/app_colors.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/custom_divider_view.dart';
 
-class GenieScreen extends StatelessWidget {
+class GenieScreenThree extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final services = Genie.getGenieServices();
@@ -37,7 +37,7 @@ class GenieScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Text(
-                              'HELP CHILDREN IN YEMEN',
+                              'FIGHT HUNGER IN DELHI',
                               style: Theme.of(context)
                                   .textTheme
                                   .headline4
@@ -69,7 +69,7 @@ class GenieScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10.0),
                       ),
                       child: Image.asset(
-                              'assets/images/banner13.jpg',
+                              'assets/images/banner16.jpg',
                               height: 360.0,
                               width: 350.0,
                               fit: BoxFit.cover,
