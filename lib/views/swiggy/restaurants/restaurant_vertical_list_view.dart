@@ -38,7 +38,7 @@ class RestaurantVerticalListView extends StatelessWidget {
                   children: <Widget>[
                     UIHelper.verticalSpaceExtraSmall(),
                     Text(
-                      'Discover unique tastes near you',
+                      '',
                       style: Theme.of(context)
                           .textTheme
                           .bodyText1

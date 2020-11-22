@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:swiggy_ui/utils/app_colors.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/views/swiggy/genie/genie_screen.dart';
+import 'package:swiggy_ui/views/swiggy/genie/genie_screen_2.dart';
+import 'package:swiggy_ui/views/swiggy/genie/genie_screen_3.dart';
 
 import 'all_restaurants/all_restaurants_screen.dart';
 import 'genie/genie_grocery_card_view.dart';
@@ -143,9 +145,9 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
             children: <Widget>[
               InkWell(
                 child: GenieGroceryCardView(
-                  title: 'Genie',
-                  subtitle: 'Anything you need,\ndelivered',
-                  image: 'assets/images/food1.jpg',
+                  title: 'Yemen',
+                  subtitle: 'Help children in\nYemen',
+                  image: 'assets/images/banner14.jpg',
                 ),
                 onTap: () {
                   Navigator.push(
@@ -158,30 +160,30 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
               ),
               InkWell(
                 child: GenieGroceryCardView(
-                  title: 'Grocery',
-                  subtitle: 'Esentials delivered\nin 2 Hrs',
-                  image: 'assets/images/food4.jpg',
+                  title: 'Syria',
+                  subtitle: 'Help Syrian Refugees',
+                  image: 'assets/images/banner14.jpg',
                 ),
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => GroceryScreen(),
+                      builder: (context) => GenieScreenTwo(),
                     ),
                   );
                 },
               ),
               InkWell(
                 child: GenieGroceryCardView(
-                  title: 'Meat',
-                  subtitle: 'Fesh meat\ndelivered safe',
-                  image: 'assets/images/food6.jpg',
+                  title: 'Delhi',
+                  subtitle: 'Confront Hunger\nin Delhi',
+                  image: 'assets/images/banner14.jpg',
                 ),
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => MeatScreen(),
+                      builder: (context) => GenieScreenThree(),
                     ),
                   );
                 },

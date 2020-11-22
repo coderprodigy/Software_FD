@@ -60,7 +60,7 @@ class SwiggyScreen extends StatelessWidget {
                       ),
                       CustomDividerView(),
                       RestaurantVerticalListView(
-                        title: 'All Restaurants Nearby',
+                        title: 'Donors Nearby',
                         restaurants:
                             SpotlightBestTopFood.getPopularAllRestaurants(),
                         isAllRestaurantNearby: true,
