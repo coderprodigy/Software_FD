@@ -3,11 +3,27 @@ import 'package:swiggy_ui/utils/app_colors.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/custom_divider_view.dart';
 import 'package:swiggy_ui/widgets/veg_badge_view.dart';
+import '../home_donor.dart';
 
 class CartScreentwo extends StatelessWidget {
+  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: scaffoldKey,
+      appBar: AppBar(
+        leading: IconButton(
+    icon: Icon(Icons.arrow_back, color: Colors.white),
+               onPressed: () {
+          Navigator.of(context)
+              .push(MaterialPageRoute(builder: (_) => HomeBottomNavigationScreenTwo()));
+        },
+  ),
+        backgroundColor: Colors.blueAccent,
+        title: const Text('Food Donation'),
+        // actions: <Widget>[
+        // ],
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Container(
