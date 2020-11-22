@@ -67,19 +67,23 @@ class _OrderViewState extends State<_OrderView> {
           ),
           UIHelper.verticalSpaceLarge(),
           Row(
+            // mainAxisAlignment: MainAxisAlignment,
             children: <Widget>[
               VegBadgeView(),
               UIHelper.horizontalSpaceSmall(),
+              // Spacer(flex:1),
               Flexible(
                 child: Text(
                   'Aloo Paratha ',
                   style: Theme.of(context).textTheme.bodyText1,
                 ),
               ),
-              UIHelper.horizontalSpaceExtraLarge(),
-              UIHelper.horizontalSpaceExtraLarge(),
-              UIHelper.horizontalSpaceExtraLarge(),
+              // UIHelper.horizontalSpaceExtraLarge(),
+              // UIHelper.horizontalSpaceExtraLarge(),
+              // UIHelper.horizontalSpaceExtraLarge(),
+              Spacer(flex:2),
               Container(
+                
                 padding: const EdgeInsets.symmetric(horizontal: 5.0),
                 height: 35.0,
                 width: 100.0,
@@ -137,9 +141,10 @@ class _OrderViewState extends State<_OrderView> {
                   style: Theme.of(context).textTheme.bodyText1,
                 ),
               ),
-              UIHelper.horizontalSpaceExtraLarge(),
-              UIHelper.horizontalSpaceExtraLarge(),
-              UIHelper.horizontalSpaceExtraLarge(),
+              // UIHelper.horizontalSpaceExtraLarge(),
+              // UIHelper.horizontalSpaceExtraLarge(),
+              // UIHelper.horizontalSpaceExtraLarge(),
+              Spacer(flex:2),
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 5.0),
                 height: 35.0,
