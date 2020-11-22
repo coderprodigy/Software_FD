@@ -20,7 +20,7 @@ class IndianDelightScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text(
-                      'SOUTH INDIAN DELIGHTS',
+                      'FIGHT HUNGER AND POVERTY',
                       style: Theme.of(context)
                           .textTheme
                           .subtitle2
@@ -28,14 +28,14 @@ class IndianDelightScreen extends StatelessWidget {
                     ),
                     UIHelper.verticalSpaceSmall(),
                     Text(
-                        'Feast on authentic South Indian fare from top restaurants near you'),
+                        'You Waste Life When You Waste Good Food'),
                     UIHelper.verticalSpaceSmall(),
                     Divider(),
                   ],
                 ),
               ),
               GroceryListView(
-                title: 'SEE ALL RESTAURANTS',
+                title: 'OTHER DONORS',
               ),
             ],
           ),
@@ -55,7 +55,7 @@ class _IndianDelightHeaderView extends StatelessWidget {
     return Stack(
       children: <Widget>[
         Image.asset(
-          'assets/images/banner3.jpg',
+          'assets/images/banner18.jpg',
           height: MediaQuery.of(context).size.height / 5.0,
           width: double.infinity,
           fit: BoxFit.cover,

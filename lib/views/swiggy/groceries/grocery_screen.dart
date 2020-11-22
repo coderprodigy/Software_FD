@@ -15,7 +15,7 @@ class GroceryScreen extends StatelessWidget {
               _GroceryHeaderView(),
               UIHelper.verticalSpaceMedium(),
               GroceryListView(
-                title: '156 RESTAURANTS NEARBY',
+                title: 'DONORS Nearby',
               ),
             ],
           ),
@@ -35,7 +35,7 @@ class _GroceryHeaderView extends StatelessWidget {
     return Stack(
       children: <Widget>[
         Image.asset(
-          'assets/images/banner3.jpg',
+          'assets/images/banner17.jpg',
           height: MediaQuery.of(context).size.height / 2.1,
           width: double.infinity,
           fit: BoxFit.cover,
