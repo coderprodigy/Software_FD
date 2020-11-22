@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:swiggy_ui/views/restaurant_add.dart';
 //import 'package:swiggy_ui/views/swiggy/swiggy_screen_2.dart';
 
 import '../utils/app_colors.dart';
@@ -19,7 +20,8 @@ class _HomeBottomNavigationScreenStateTwo
     extends State<HomeBottomNavigationScreenTwo> {
   final List<Widget> _children = [
     SwiggyScreenTwo(),
-    SearchScreen(),
+    // SearchScreen(),
+    MyHomePageTwo(),
     CartScreen(),
     AccountScreen(),
   ]; 
