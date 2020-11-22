@@ -52,8 +52,8 @@ class _HomeBottomNavigationScreenStateTwo
             title: Text('Home'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            title: Text('SEARCH'),
+            icon: Icon(Icons.add_circle),
+            title: Text('Donate'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add_shopping_cart),
