@@ -118,10 +118,70 @@ class _OrderViewState extends State<_OrderView> {
                 ),
               ),
               UIHelper.horizontalSpaceSmall(),
-              Text(
-                'Rs125',
-                style: Theme.of(context).textTheme.bodyText1,
+              // Text(
+              //   'Rs125',
+              //   style: Theme.of(context).textTheme.bodyText1,
+              // ),
+            ],
+          ),
+          SizedBox(height:15),
+          Row(
+            
+            children: <Widget>[
+              VegBadgeView(),
+              UIHelper.horizontalSpaceSmall(),
+              Flexible(
+                child: Text(
+                  'Gobi Paratha with Curd and Pickle',
+                  style: Theme.of(context).textTheme.bodyText1,
+                ),
               ),
+              UIHelper.horizontalSpaceSmall(),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                height: 35.0,
+                width: 100.0,
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.grey,
+                  ),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: <Widget>[
+                    InkWell(
+                      child: Icon(Icons.remove, color: Colors.green),
+                      onTap: () {
+                        if (cartCount > 0) {
+                          setState(() {
+                            cartCount -= 1;
+                          });
+                        }
+                      },
+                    ),
+                    Spacer(),
+                    Text('$cartCount',
+                        style: Theme.of(context)
+                            .textTheme
+                            .subtitle2
+                            .copyWith(fontSize: 16.0)),
+                    Spacer(),
+                    InkWell(
+                      child: Icon(Icons.add, color: Colors.green),
+                      onTap: () {
+                        setState(() {
+                          cartCount += 1;
+                        });
+                      },
+                    )
+                  ],
+                ),
+              ),
+              UIHelper.horizontalSpaceSmall(),
+              // Text(
+              //   'Rs125',
+              //   style: Theme.of(context).textTheme.bodyText1,
+              // ),
             ],
           ),
           UIHelper.verticalSpaceExtraLarge(),
