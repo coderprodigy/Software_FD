@@ -3,18 +3,20 @@ import 'package:swiggy_ui/utils/app_colors.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/custom_divider_view.dart';
 import 'package:swiggy_ui/widgets/dotted_seperator_view.dart';
+import '../auth/login_page.dart';
+
 
 class AccountScreen extends StatelessWidget {
   final List<String> titles = [
     'My Account',
-    'SUPER Expired',
-    'Swiggy Money',
+    'Food Donations',
+    'Donation points',
     'Help',
   ];
   final List<String> body = [
-    'Address, Payments, Favourties, Referrals & Offers',
-    'You had a great savings run. Get SUPER again',
-    'Balance & Transactions',
+    'Address, Payments, Favourties & Referrals ',
+    'Learn more about food donations',
+    'Transactions',
     'FAQ & Links',
   ];
 
@@ -43,7 +45,7 @@ class AccountScreen extends StatelessWidget {
                 height: 50.0,
                 color: Colors.grey[200],
                 child: Text(
-                  'PAST ORDERS',
+                  'PAST DONATIONS',
                   style: Theme.of(context)
                       .textTheme
                       .subtitle2
@@ -63,6 +65,7 @@ class _AppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final subtitleStyle = Theme.of(context).textTheme.bodyText1;
+    
 
     return Container(
       padding: const EdgeInsets.all(15.0),
@@ -72,7 +75,7 @@ class _AppBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Text(
-                'BINOD',
+                'Abhirath',
                 style: Theme.of(context)
                     .textTheme
                     .headline6
@@ -103,7 +106,7 @@ class _AppBar extends StatelessWidget {
                 ),
               ),
               UIHelper.horizontalSpaceSmall(),
-              Text('vinothvino@icloud.com', style: subtitleStyle)
+              Text('abhirathkappor@gmail.com', style: subtitleStyle)
             ],
           ),
           UIHelper.verticalSpaceLarge(),
@@ -188,9 +191,9 @@ class _PastOrderListView extends StatelessWidget {
   ];
 
   final List<String> foods = [
-    'Pepper BBQ x 1',
-    'Chicken Noodles x 1',
-    'Milk Tea x 1'
+    'Roti  x 150',
+    'Rice x 10kg',
+    'Milk Tea x 18'
   ];
 
   @override
@@ -235,7 +238,15 @@ class _PastOrderListView extends StatelessWidget {
               ),
             ),
             Spacer(),
-            Icon(Icons.power_settings_new),
+            //Icon(Icons.power_settings_new),
+            IconButton(
+          icon: Icon(Icons.power_settings_new),
+          //tooltip: 'Increase volume by 10',
+          onPressed: () {
+            Navigator.of(context)
+              .push(MaterialPageRoute(builder: (_) => WelcomeBackPage()));
+          },
+        ),
             UIHelper.horizontalSpaceSmall(),
           ],
         ),
@@ -300,16 +311,16 @@ class _PastOrdersListItemView extends StatelessWidget {
                     UIHelper.verticalSpaceSmall(),
                     Row(
                       children: <Widget>[
-                        Text('Rs112'),
+                        //Text('Rs112'),
                         UIHelper.horizontalSpaceExtraSmall(),
-                        Icon(Icons.keyboard_arrow_right,
-                            color: Colors.grey[600])
+                        // Icon(Icons.keyboard_arrow_right,
+                        //     color: Colors.grey[600])
                       ],
                     )
                   ],
                 ),
                 Spacer(),
-                Text('Delivered', style: Theme.of(context).textTheme.subtitle2),
+                Text('Donated', style: Theme.of(context).textTheme.subtitle2),
                 UIHelper.horizontalSpaceSmall(),
                 ClipOval(
                   child: Container(
@@ -329,7 +340,7 @@ class _PastOrdersListItemView extends StatelessWidget {
             children: <Widget>[
               Text(foodItem),
               UIHelper.verticalSpaceExtraSmall(),
-              Text('July 14, 2:11 AM'),
+              Text('July 14, 2:11 PM'),
               UIHelper.verticalSpaceSmall(),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -342,7 +353,7 @@ class _PastOrdersListItemView extends StatelessWidget {
                           color: darkOrange,
                           borderSide: BorderSide(width: 1.5, color: darkOrange),
                           child: Text(
-                            'REORDER',
+                            'Donate Again',
                             style: Theme.of(context)
                                 .textTheme
                                 .subtitle2
@@ -351,7 +362,7 @@ class _PastOrdersListItemView extends StatelessWidget {
                           onPressed: () {},
                         ),
                         UIHelper.verticalSpaceMedium(),
-                        Text('Delivery rating not\napplicable for this order')
+                        //Text('Delivery rating not\napplicable for this order')
                       ],
                     ),
                   ),
@@ -365,7 +376,7 @@ class _PastOrdersListItemView extends StatelessWidget {
                           borderSide:
                               BorderSide(width: 1.5, color: Colors.black),
                           child: Text(
-                            'RATE FOOD',
+                            'RATE Experience',
                             style: Theme.of(context)
                                 .textTheme
                                 .subtitle2
@@ -374,7 +385,7 @@ class _PastOrdersListItemView extends StatelessWidget {
                           onPressed: () {},
                         ),
                         UIHelper.verticalSpaceMedium(),
-                        Text("You haven't rated\nthis food yet")
+                        //Text("You haven't rated\nthis food yet")
                       ],
                     ),
                   )
