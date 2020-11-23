@@ -213,7 +213,7 @@ class _PastOrderListView extends StatelessWidget {
         ),
         FlatButton(
           child: Text(
-            'VIEW MORE ORDERS',
+            'VIEW MORE DONATIONS',
             style: Theme.of(context)
                 .textTheme
                 .subtitle2
