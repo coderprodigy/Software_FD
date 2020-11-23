@@ -34,7 +34,7 @@ class CartScreen extends StatelessWidget {
               children: <Widget>[
                 _OrderView(),
                 CustomDividerView(dividerHeight: 15.0),
-                _CouponView(),
+                //_CouponView(),
                 CustomDividerView(dividerHeight: 15.0),
                 _BillDetailView(),
                 _DecoratedView(),
@@ -210,7 +210,7 @@ class _OrderViewState extends State<_OrderView> {
             children: <Widget>[
               Icon(Icons.library_books, color: Colors.grey[700]),
               UIHelper.horizontalSpaceSmall(),
-              Text('Any restaurant request? We will try our best to convey it')
+              Text('Any Donor request? We will try our best to convey it')
             ],
           ),
           UIHelper.verticalSpaceMedium(),
@@ -254,7 +254,7 @@ class _BillDetailView extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            'Bill Details',
+            'Donation Details',
             style:
                 Theme.of(context).textTheme.headline6.copyWith(fontSize: 17.0),
           ),
@@ -262,8 +262,8 @@ class _BillDetailView extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text('Item total', style: textStyle),
-              Text('Rs 129.00', style: textStyle),
+              Text('Item List', style: textStyle),
+              Text('6.00', style: textStyle),
             ],
           ),
           UIHelper.verticalSpaceMedium(),
@@ -275,51 +275,51 @@ class _BillDetailView extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
-                    Row(
-                      children: <Widget>[
-                        Text('Delivery Fee', style: textStyle),
-                        UIHelper.horizontalSpaceSmall(),
-                        Icon(Icons.info_outline, size: 14.0)
-                      ],
-                    ),
-                    UIHelper.verticalSpaceSmall(),
-                    Text(
-                      'Your Delivery Partner is travelling long distance to deliver your order',
-                      style: Theme.of(context)
-                          .textTheme
-                          .bodyText1
-                          .copyWith(fontSize: 13.0),
-                    ),
+                    // Row(
+                    //   children: <Widget>[
+                    //     Text('Delivery Fee', style: textStyle),
+                    //     UIHelper.horizontalSpaceSmall(),
+                    //     Icon(Icons.info_outline, size: 14.0)
+                    //   ],
+                    // ),
+                    // UIHelper.verticalSpaceSmall(),
+                    // Text(
+                    //   'Your Delivery Partner is travelling long distance to deliver your order',
+                    //   style: Theme.of(context)
+                    //       .textTheme
+                    //       .bodyText1
+                    //       .copyWith(fontSize: 13.0),
+                    // ),
                   ],
                 ),
               ),
-              Text('Rs 54.00', style: textStyle),
+              //Text('Rs 54.00', style: textStyle),
             ],
           ),
           UIHelper.verticalSpaceLarge(),
           _buildDivider(),
-          Container(
-            alignment: Alignment.center,
-            height: 60.0,
-            child: Row(
-              children: <Widget>[
-                Text('Taxes and Charges', style: textStyle),
-                UIHelper.horizontalSpaceSmall(),
-                Icon(Icons.info_outline, size: 14.0),
-                Spacer(),
-                Text('Rs 26.67', style: textStyle),
-              ],
-            ),
-          ),
+          // Container(
+          //   alignment: Alignment.center,
+          //   height: 60.0,
+          //   child: Row(
+          //     children: <Widget>[
+          //       Text('Taxes and Charges', style: textStyle),
+          //       UIHelper.horizontalSpaceSmall(),
+          //       Icon(Icons.info_outline, size: 14.0),
+          //       Spacer(),
+          //       Text('Rs 26.67', style: textStyle),
+          //     ],
+          //   ),
+          // ),
           _buildDivider(),
           Container(
             alignment: Alignment.center,
             height: 60.0,
             child: Row(
               children: <Widget>[
-                Text('To Pay', style: Theme.of(context).textTheme.subtitle2),
+                Text('To Donate', style: Theme.of(context).textTheme.subtitle2),
                 Spacer(),
-                Text('Rs 210.00', style: textStyle),
+                Text('6.00 Items', style: textStyle),
               ],
             ),
           ),
@@ -338,7 +338,7 @@ class _DecoratedView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100.0,
+      height: 30.0,
       color: Colors.grey[200],
     );
   }
@@ -447,7 +447,7 @@ class _AddressPaymentView extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        'Rs210.00',
+                        '6.00 Items',
                         style: Theme.of(context)
                             .textTheme
                             .subtitle2
@@ -455,7 +455,7 @@ class _AddressPaymentView extends StatelessWidget {
                       ),
                       UIHelper.verticalSpaceExtraSmall(),
                       Text(
-                        'VIEW DETAIL BILL',
+                        'Donation Details',
                         style: Theme.of(context)
                             .textTheme
                             .subtitle2
@@ -472,7 +472,7 @@ class _AddressPaymentView extends StatelessWidget {
                   color: Colors.green,
                   height: 58.0,
                   child: Text(
-                    'PROCEED TO PAY',
+                    'PROCEED TO DONATE',
                     style: Theme.of(context)
                         .textTheme
                         .subtitle2
