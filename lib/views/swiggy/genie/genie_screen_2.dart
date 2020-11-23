@@ -3,6 +3,8 @@ import 'package:swiggy_ui/models/genie.dart';
 import 'package:swiggy_ui/utils/app_colors.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/custom_divider_view.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 
 class GenieScreenTwo extends StatelessWidget {
   @override
@@ -147,8 +149,10 @@ class GenieScreenTwo extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10.0),
                       ),
                       child: _HeaderView(
-                        title: '                           GIVE NOW!',
+                        title: '                           GIVE NOW !',
+
                         buttonTitle: 'DONATE',
+                        
                       ),
                     ),
                   ],
@@ -161,6 +165,7 @@ class GenieScreenTwo extends StatelessWidget {
     );
   }
 }
+
 
 class _HeaderView extends StatelessWidget {
   final String title;
@@ -198,11 +203,19 @@ class _HeaderView extends StatelessWidget {
                   .subtitle2
                   .copyWith(color: Colors.white, fontSize: 14.0),
             ),
-            onPressed: () {},
+            onPressed: _launchURL,
           ),
         ),
         UIHelper.verticalSpaceMedium(),
       ],
     );
+  }
+}
+_launchURL() async {
+  const url = "https://donatenow.wfp.org/wfp/~my-donation?_ga=2.5228720.2064361959.1606154096-1087441000.1606154096"; 
+  if (await canLaunch(url)) { 
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
   }
 }
