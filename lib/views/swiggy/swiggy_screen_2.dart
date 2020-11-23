@@ -73,7 +73,7 @@ class SwiggyScreenTwo extends StatelessWidget {
                         child: RaisedButton(
                           color: darkOrange,
                           child: Text(
-                            'See all restaurants',
+                            'See all Donors',
                             style: Theme.of(context)
                                 .textTheme
                                 .subtitle2
