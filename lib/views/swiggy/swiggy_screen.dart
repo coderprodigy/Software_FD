@@ -194,14 +194,14 @@ class SwiggyScreen extends StatelessWidget {
                       .copyWith(fontSize: 18.0),
                 ),
               ),
-              onTap: () {
+              /*onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => OffersScreen(),
                   ),
                 );
-              },
+              },*/
             ),
           ],
         ),

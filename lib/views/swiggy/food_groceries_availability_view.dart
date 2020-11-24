@@ -78,7 +78,7 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                               ),
                               UIHelper.verticalSpaceExtraSmall(),
                               Text(
-                                'No-contact delivery available',
+                                'Preview',
                                 style: Theme.of(context)
                                     .textTheme
                                     .bodyText1
@@ -126,12 +126,12 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
               ),
               Positioned(
                 top: -3.0,
-                right: -10.0,
+                right: 15.0,
                 child: ClipOval(
                   child: Image.asset(
-                    'assets/images/food11.jpg',
+                    'assets/images/donors.png',
                     width: 130.0,
-                    height: 100.0,
+                    height: 110.0,
                     fit: BoxFit.fill,
                   ),
                 ),

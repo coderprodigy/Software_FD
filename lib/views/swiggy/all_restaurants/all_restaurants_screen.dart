@@ -31,9 +31,9 @@ class AllRestaurantsScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   _FoodHorizontalListView(),
-                  CategoriesView(),
+                  //CategoriesView(),
                   GroceryListView(
-                    title: 'ALL RESTAURANTS',
+                    title: 'ALL DONORS',
                   ),
                   _RestaurantHorizontalListView(
                     title: 'Indian Restaurants',
@@ -126,7 +126,7 @@ class AllRestaurantsScreen extends StatelessWidget {
             ),
             UIHelper.horizontalSpaceExtraSmall(),
             Spacer(),
-            Icon(Icons.local_offer),
+            /* Icon(Icons.local_offer),
             UIHelper.horizontalSpaceExtraSmall(),
             InkWell(
               child: Container(
@@ -147,7 +147,7 @@ class AllRestaurantsScreen extends StatelessWidget {
                   ),
                 );
               },
-            ),
+            ),*/
           ],
         ),
       );
@@ -171,15 +171,15 @@ class _FoodHorizontalListView extends StatelessWidget {
               Image.asset(
                 restaurants[index].image,
                 height: MediaQuery.of(context).size.height / 4,
-                width: MediaQuery.of(context).size.width / 2,
+                width: MediaQuery.of(context).size.width / 2.5,
               ),
-              Container(
+              /*Container(
                 margin: const EdgeInsets.all(10.0),
                 padding:
                     const EdgeInsets.symmetric(vertical: 6.0, horizontal: 10.0),
                 color: Colors.white,
                 child: Text('TRY NOW'),
-              ),
+              ),*/
               Positioned(
                 bottom: 1.0,
                 child: Container(
@@ -202,7 +202,7 @@ class _FoodHorizontalListView extends StatelessWidget {
     );
   }
 }
-
+/*
 class CategoriesView extends StatelessWidget {
   final categories = AllRestaurant.getPopularTypes();
 
@@ -260,7 +260,7 @@ class CategoriesView extends StatelessWidget {
       ),
     );
   }
-}
+}*/
 
 class _RestaurantHorizontalListView extends StatelessWidget {
   final String title;

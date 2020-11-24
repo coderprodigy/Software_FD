@@ -28,7 +28,7 @@ class IndianFoodView extends StatelessWidget {
                     restaurants[index].image,
                     height: 80.0,
                     width: 80.0,
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fitHeight,
                   ),
                 ),
                 UIHelper.verticalSpaceExtraSmall(),

@@ -175,11 +175,12 @@ class AllRestaurant {
 
   static List<IndianFood> getPopularBrands() {
     return [
-      IndianFood(image: 'assets/images/food3.jpg', name: 'Sangeetha'),
+      IndianFood(
+          image: 'assets/images/front_hostel_k(1).jpg', name: 'Hostel K'),
       IndianFood(image: 'assets/images/food5.jpg', name: 'Indian\nChai'),
-      IndianFood(image: 'assets/images/food1.jpg', name: 'Chai\nKings'),
-      IndianFood(image: 'assets/images/food8.jpg', name: 'Dosa\nMan'),
-      IndianFood(image: 'assets/images/food9.jpg', name: 'Subway'),
+      IndianFood(image: 'assets/images/hostelH_2.png', name: 'Hostel H'),
+      IndianFood(image: 'assets/images/images.jpg', name: 'Elevate'),
+      IndianFood(image: 'assets/images/hostelm.jpg', name: 'Hostel M'),
       IndianFood(image: 'assets/images/food4.jpg', name: 'KFC'),
     ];
   }

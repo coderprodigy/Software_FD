@@ -49,7 +49,7 @@ class InTheSpotlightView extends StatelessWidget {
                 Icon(Icons.shopping_basket, size: 20.0),
                 UIHelper.horizontalSpaceSmall(),
                 Text(
-                  'In the Spotlight!',
+                  'Recent Donors',
                   style: Theme.of(context)
                       .textTheme
                       .headline4

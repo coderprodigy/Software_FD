@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:swiggy_ui/models/popular_brands.dart';
+//import 'package:swiggy_ui/models/popular_brands.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/views/swiggy/restaurants/restaurant_detail_screen.dart';
+import 'package:swiggy_ui/models/bld.dart';
 
 class PopularBrandsView extends StatelessWidget {
-  final brands = PopularBrands.getPopularBrands();
+  final brands = breaklundin.getbld();
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 230.0,
-      margin: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
+      height: 220.0,
+      margin: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 5.0),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
@@ -43,13 +44,13 @@ class PopularBrandsView extends StatelessWidget {
                               color: Colors.grey[300],
                               width: 3.0,
                             ),
-                            borderRadius: BorderRadius.circular(40.0),
+                            borderRadius: BorderRadius.circular(45.0),
                           ),
                           child: ClipOval(
                             child: Image.asset(
                               brands[index].image,
-                              height: 80.0,
-                              width: 80.0,
+                              height: 100.0,
+                              width: 100.0,
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -87,20 +88,20 @@ class PopularBrandsView extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Text(
-              'Popular Brands',
+              'Looking for what?',
               style: Theme.of(context)
                   .textTheme
                   .headline4
                   .copyWith(fontSize: 20.0),
             ),
             UIHelper.verticalSpaceExtraSmall(),
-            Text(
+            /*Text(
               'Most ordered from around your locality',
               style: Theme.of(context)
                   .textTheme
                   .bodyText1
                   .copyWith(color: Colors.grey),
-            ),
+            ),*/
           ],
         ),
       );

@@ -26,7 +26,7 @@ class SpotlightBestTopFood {
           ratingTimePrice: '',
         ),
         SpotlightBestTopFood(
-          image: 'assets/images/H.png',
+          image: 'assets/images/hostelH_2.png',
           name: 'Hostel H',
           desc: '3.1km',
           coupon: '30 mins',
@@ -67,7 +67,7 @@ class SpotlightBestTopFood {
       ],
       [
         SpotlightBestTopFood(
-          image: 'assets/images/I.jpg',
+          image: 'assets/images/hostelI_1.png',
           name: 'Hostel I',
           desc: '2.7km ',
           coupon: '22 mins',
@@ -104,14 +104,14 @@ class SpotlightBestTopFood {
       ],
       [
         SpotlightBestTopFood(
-          image: 'assets/images/C.jpg',
+          image: 'assets/images/hostelC_3.png',
           name: 'Hostel C',
           desc: '2km ',
           coupon: '19 mins',
           ratingTimePrice: '',
         ),
         SpotlightBestTopFood(
-          image: 'assets/images/B.png',
+          image: 'assets/images/hostelB_2.png',
           name: 'Hostel B',
           desc: '2.3km  ',
           coupon: '21 mins',
@@ -173,7 +173,7 @@ class SpotlightBestTopFood {
       ],
       [
         SpotlightBestTopFood(
-          image: 'assets/images/M.png',
+          image: 'assets/images/hostelm.jpg',
           name: 'Hostel M',
           desc: '2.6km',
           coupon: '23 mins ',
@@ -225,7 +225,7 @@ class SpotlightBestTopFood {
   static List<SpotlightBestTopFood> getPopularAllRestaurants() {
     return [
       SpotlightBestTopFood(
-        image: 'assets/images/I.jpg',
+        image: 'assets/images/hostelI_1.png',
         name: 'Hostel I',
         desc: '2km ',
         coupon: '19 mins',
@@ -239,7 +239,7 @@ class SpotlightBestTopFood {
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
-        image: 'assets/images/M.png',
+        image: 'assets/images/hostelm.jpg',
         name: 'Hostel M',
         desc: '1.8km ',
         coupon: '22 mins',
@@ -272,7 +272,7 @@ class SpotlightBestTopFood {
   static List<SpotlightBestTopFood> getTopGroceryRestaurants() {
     return [
       SpotlightBestTopFood(
-        image: 'assets/images/K.png',
+        image: 'assets/images/front_hostel_k(1).jpg',
         name: 'Hostel K',
         desc: '1.4km ',
         coupon: '19 mins',
@@ -307,7 +307,7 @@ class SpotlightBestTopFood {
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
-        image: 'assets/images/A.jpg',
+        image: 'assets/images/hostelA_1.png',
         name: 'Hostel A',
         desc: '2.9km ',
         coupon: '23 mins',
