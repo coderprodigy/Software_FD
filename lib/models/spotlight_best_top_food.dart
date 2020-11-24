@@ -26,7 +26,7 @@ class SpotlightBestTopFood {
           ratingTimePrice: '',
         ),
         SpotlightBestTopFood(
-          image: 'assets/images/food2.jpg',
+          image: 'assets/images/H.png',
           name: 'Hostel H',
           desc: '3.1km',
           coupon: '30 mins',
@@ -35,7 +35,7 @@ class SpotlightBestTopFood {
       ],
       [
         SpotlightBestTopFood(
-          image: 'assets/images/food3.jpg',
+          image: 'assets/images/J.png',
           name: 'Hostel J',
           desc: '2.2km ',
           coupon: '28 mins',
@@ -51,7 +51,7 @@ class SpotlightBestTopFood {
       ],
       [
         SpotlightBestTopFood(
-          image: 'assets/images/food5.jpg',
+          image: 'assets/images/K.png',
           name: 'Hostel K',
           desc: '1.8km ',
           coupon: '18 mins',
@@ -67,7 +67,7 @@ class SpotlightBestTopFood {
       ],
       [
         SpotlightBestTopFood(
-          image: 'assets/images/food7.jpg',
+          image: 'assets/images/I.jpg',
           name: 'Hostel I',
           desc: '2.7km ',
           coupon: '22 mins',
@@ -104,14 +104,14 @@ class SpotlightBestTopFood {
       ],
       [
         SpotlightBestTopFood(
-          image: 'assets/images/food4.jpg',
+          image: 'assets/images/C.jpg',
           name: 'Hostel C',
           desc: '2km ',
           coupon: '19 mins',
           ratingTimePrice: '',
         ),
         SpotlightBestTopFood(
-          image: 'assets/images/food3.jpg',
+          image: 'assets/images/B.png',
           name: 'Hostel B',
           desc: '2.3km  ',
           coupon: '21 mins',
@@ -127,7 +127,7 @@ class SpotlightBestTopFood {
           ratingTimePrice: '',
         ),
         SpotlightBestTopFood(
-          image: 'assets/images/food5.jpg',
+          image: 'assets/images/A.jpg',
           name: 'Hostel A',
           desc: '1.7km ',
           coupon: '19 mins',
@@ -173,7 +173,7 @@ class SpotlightBestTopFood {
       ],
       [
         SpotlightBestTopFood(
-          image: 'assets/images/food1.jpg',
+          image: 'assets/images/M.png',
           name: 'Hostel M',
           desc: '2.6km',
           coupon: '23 mins ',
@@ -225,7 +225,7 @@ class SpotlightBestTopFood {
   static List<SpotlightBestTopFood> getPopularAllRestaurants() {
     return [
       SpotlightBestTopFood(
-        image: 'assets/images/food5.jpg',
+        image: 'assets/images/I.jpg',
         name: 'Hostel I',
         desc: '2km ',
         coupon: '19 mins',
@@ -239,7 +239,7 @@ class SpotlightBestTopFood {
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
-        image: 'assets/images/food7.jpg',
+        image: 'assets/images/M.png',
         name: 'Hostel M',
         desc: '1.8km ',
         coupon: '22 mins',
@@ -272,17 +272,17 @@ class SpotlightBestTopFood {
   static List<SpotlightBestTopFood> getTopGroceryRestaurants() {
     return [
       SpotlightBestTopFood(
-        image: 'assets/images/food3.jpg',
-        name: 'Hostel M',
-        desc: '3.4km ',
-        coupon: '27 mins',
+        image: 'assets/images/K.png',
+        name: 'Hostel K',
+        desc: '1.4km ',
+        coupon: '19 mins',
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
         image: 'assets/images/food4.jpg',
-        name: 'BBQ Nation ',
-        desc: '3.5km ',
-        coupon: '41 mins',
+        name: 'Pearl Grand ',
+        desc: '2.1km ',
+        coupon: '24 mins',
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
@@ -295,36 +295,36 @@ class SpotlightBestTopFood {
       SpotlightBestTopFood(
         image: 'assets/images/food2.jpg',
         name: 'Shiva Bhavan',
-        desc: '3.1km ',
-        coupon: '29 mins',
+        desc: '1.1km ',
+        coupon: '16 mins',
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
         image: 'assets/images/food7.jpg',
         name: 'Elevate',
-        desc: '4km',
-        coupon: '39 mins ',
+        desc: '1.9km',
+        coupon: '19 mins ',
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
-        image: 'assets/images/food8.jpg',
-        name: 'Hostel I',
-        desc: '4.5km ',
-        coupon: '50 mins',
+        image: 'assets/images/A.jpg',
+        name: 'Hostel A',
+        desc: '2.9km ',
+        coupon: '23 mins',
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
         image: 'assets/images/food5.jpg',
         name: 'Amar Banquet Hall',
         desc: '2.8km ',
-        coupon: '33 mins',
+        coupon: '25 mins',
         ratingTimePrice: '',
       ),
       SpotlightBestTopFood(
         image: 'assets/images/food6.jpg',
         name: 'Adyar Hotel',
-        desc: '20km ',
-        coupon: '35 mins',
+        desc: '1.4km ',
+        coupon: '12 mins',
         ratingTimePrice: '',
       ),
     ];

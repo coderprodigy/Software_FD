@@ -62,7 +62,7 @@ class SwiggyScreen extends StatelessWidget {
                       RestaurantVerticalListView(
                         title: 'DONORS Nearby',
                         restaurants:
-                            SpotlightBestTopFood.getPopularAllRestaurants(),
+                            SpotlightBestTopFood.getTopGroceryRestaurants(),
                         isAllRestaurantNearby: true,
                       ),
                       UIHelper.verticalSpaceMedium(),

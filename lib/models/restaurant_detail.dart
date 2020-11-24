@@ -19,8 +19,7 @@ class RestaurantDetail {
         title: 'Idly(2Pcs) (Breakfast)',
         price: 'Rs48',
         image: 'assets/images/food1.jpg',
-        desc:
-            'A healthy breakfast item and an authentic south indian delicacy! Steamed and fluffy rice cake..more',
+        desc: '',
       ),
       RestaurantDetail(
         title: 'Sambar Idly (2Pcs)',
@@ -31,8 +30,7 @@ class RestaurantDetail {
         title: 'Ghee Pongal',
         image: 'assets/images/food3.jpg',
         price: 'Rs85',
-        desc:
-            'Cute, button idlis with authentic. South Indian sambar and coconut chutney gives the per..more',
+        desc: '',
       ),
       RestaurantDetail(
         title: 'Boori (1Set)',
@@ -48,8 +46,7 @@ class RestaurantDetail {
         title: 'Mini Idly with Sambar',
         image: 'assets/images/food6.jpg',
         price: 'Rs85',
-        desc:
-            'Cute, button idlis with authentic. South Indian sambar and coconut chutney gives the per..more',
+        desc: '',
       ),
     ];
   }
@@ -59,8 +56,7 @@ class RestaurantDetail {
       RestaurantDetail(
         title: 'Plain Dosa',
         price: 'Rs30',
-        desc:
-            'A healthy breakfast item and an authentic south indian delicacy!',
+        desc: '',
       ),
       RestaurantDetail(
         title: 'Rava Dosa',
@@ -69,8 +65,7 @@ class RestaurantDetail {
       RestaurantDetail(
         title: 'Onion Dosa',
         price: 'Rs85',
-        desc:
-            'Cute, button dosas with authentic. South Indian sambar and coconut chutney gives the per..more',
+        desc: '',
       ),
       RestaurantDetail(
         title: 'Onion Uttapam',

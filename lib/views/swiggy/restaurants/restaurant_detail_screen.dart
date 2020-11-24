@@ -61,7 +61,7 @@ class _OrderNowView extends StatelessWidget {
                   /*Text('South Indian',
                       style: Theme.of(context).textTheme.bodyText1),*/
                   UIHelper.verticalSpaceExtraSmall(),
-                  Text('Thapar University, \nPatiala',
+                  Text('Thapar University, \nPatiala\n',
                       style: Theme.of(context).textTheme.bodyText1),
                   UIHelper.verticalSpaceMedium(),
                   CustomDividerView(dividerHeight: 1.0),
@@ -133,7 +133,7 @@ class _OrderNowView extends StatelessWidget {
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
-              title: 'All Time Favourite',
+              title: 'Mostly Donated',
               foods: RestaurantDetail.getAllTimeFavFoods(),
             ),
             CustomDividerView(dividerHeight: 15.0),

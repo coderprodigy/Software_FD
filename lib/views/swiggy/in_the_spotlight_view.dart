@@ -58,13 +58,13 @@ class InTheSpotlightView extends StatelessWidget {
               ],
             ),
             UIHelper.verticalSpaceExtraSmall(),
-            Text(
+            /*Text(
               'Explore sponsored partner brands',
               style: Theme.of(context)
                   .textTheme
                   .bodyText1
                   .copyWith(color: Colors.grey),
-            ),
+            ),*/
           ],
         ),
       );
