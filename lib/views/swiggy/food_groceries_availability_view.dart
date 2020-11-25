@@ -53,6 +53,10 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
             ],
           ),
           UIHelper.verticalSpaceLarge(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
           Stack(
             children: <Widget>[
               ClipRRect(
@@ -139,6 +143,11 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
             ],
           ),
           UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -158,10 +167,11 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                   );
                 },
               ),
+              UIHelper.horizontalSpaceExtraSmall(),
               InkWell(
                 child: GenieGroceryCardView(
                   title: 'Syria',
-                  subtitle: 'Help Syrian Refugees',
+                  subtitle: 'Help Syrian \nRefugees',
                   image: 'assets/images/banner14.jpg',
                 ),
                 onTap: () {
@@ -173,6 +183,7 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                   );
                 },
               ),
+              UIHelper.horizontalSpaceExtraSmall(),
               InkWell(
                 child: GenieGroceryCardView(
                   title: 'Delhi',

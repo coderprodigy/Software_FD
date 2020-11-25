@@ -10,7 +10,7 @@ class InTheSpotlightView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 15.0),
-      height: 338.0,
+      height: 300.0,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[

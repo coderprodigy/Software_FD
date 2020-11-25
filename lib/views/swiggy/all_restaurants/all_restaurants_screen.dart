@@ -35,7 +35,7 @@ class AllRestaurantsScreen extends StatelessWidget {
                   GroceryListView(
                     title: 'ALL DONORS',
                   ),
-                  _RestaurantHorizontalListView(
+                  /*_RestaurantHorizontalListView(
                     title: 'Indian Restaurants',
                     restaurants: AllRestaurant.getIndianRestaurants(),
                   ),
@@ -58,15 +58,14 @@ class AllRestaurantsScreen extends StatelessWidget {
                   ),
                   _RestaurantListView(
                     restaurants: restaurantListOne,
-                  ),
+                  ),*/
                   _LargeRestaurantBannerView(
-                    title: 'PEPSI SAVE OUR RESTAURANTS',
-                    desc:
-                        'ORDER ANY SOFT DRINK & PEPSI WILL DONATE A\NMEAL TO A RESTAURANT WORKER',
+                    title: 'Incredible Donation, Incredible You',
+                    desc: 'Let us lower the graph of death toll due to HUNGER',
                     restaurants:
                         LargeRestaurantBanner.getPepsiSaveOurRestaurants(),
                   ),
-                  _RestaurantListView(
+                  /*_RestaurantListView(
                     restaurants: restaurantListThree,
                   ),
                   _RestaurantHorizontalListView(
@@ -75,7 +74,7 @@ class AllRestaurantsScreen extends StatelessWidget {
                   ),
                   _RestaurantListView(
                     restaurants: restaurantListOne,
-                  ),
+                  ),*/
                 ],
               ),
             ))
@@ -172,6 +171,7 @@ class _FoodHorizontalListView extends StatelessWidget {
                 restaurants[index].image,
                 height: MediaQuery.of(context).size.height / 4,
                 width: MediaQuery.of(context).size.width / 2.5,
+                fit: BoxFit.fitHeight,
               ),
               /*Container(
                 margin: const EdgeInsets.all(10.0),

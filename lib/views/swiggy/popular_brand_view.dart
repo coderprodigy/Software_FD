@@ -10,7 +10,7 @@ class PopularBrandsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 220.0,
+      height: 200.0,
       margin: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 5.0),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -49,13 +49,13 @@ class PopularBrandsView extends StatelessWidget {
                           child: ClipOval(
                             child: Image.asset(
                               brands[index].image,
-                              height: 100.0,
-                              width: 100.0,
+                              height: 80.0,
+                              width: 80.0,
                               fit: BoxFit.cover,
                             ),
                           ),
                         ),
-                        UIHelper.verticalSpaceSmall(),
+                        UIHelper.verticalSpaceExtraSmall(),
                         Text(
                           brands[index].name,
                           style: Theme.of(context)
