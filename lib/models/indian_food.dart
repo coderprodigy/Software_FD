@@ -11,12 +11,12 @@ class IndianFood {
 
   static List<IndianFood> getIndianRestaurants() {
     return [
-      IndianFood(image: 'assets/images/food3.jpg', name: 'South\nIndian'),
-      IndianFood(image: 'assets/images/food5.jpg', name: 'Indian\nChai'),
-      IndianFood(image: 'assets/images/food1.jpg', name: 'North \nIndian'),
-      IndianFood(image: 'assets/images/food8.jpg', name: 'Indian\nBiryani'),
-      IndianFood(image: 'assets/images/food9.jpg', name: 'Indian\nDosa'),
-      IndianFood(image: 'assets/images/food4.jpg', name: 'Indian\nIdly'),
+      IndianFood(image: 'assets/images/hostelA_1.png', name: 'Hostel A'),
+      IndianFood(image: 'assets/images/food5.jpg', name: 'BBQ\nNation'),
+      IndianFood(image: 'assets/images/food1.jpg', name: 'Pearl\nGrand'),
+      IndianFood(image: 'assets/images/hostelm.jpg', name: 'Hostel M'),
+      IndianFood(image: 'assets/images/food9.jpg', name: 'Adyar\nHotel'),
+      IndianFood(image: 'assets/images/hostelJ_4.png', name: 'Hostel J'),
     ];
   }
 }

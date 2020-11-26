@@ -5,7 +5,6 @@ import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/custom_divider_view.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-
 class GenieScreenTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -71,11 +70,11 @@ class GenieScreenTwo extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10.0),
                       ),
                       child: Image.asset(
-                              'assets/images/banner15.jpg',
-                              height: 360.0,
-                              width: 350.0,
-                              fit: BoxFit.cover,
-                            ),
+                        'assets/images/banner15.jpg',
+                        height: 360.0,
+                        width: 350.0,
+                        fit: BoxFit.cover,
+                      ),
                       /*child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
@@ -150,9 +149,7 @@ class GenieScreenTwo extends StatelessWidget {
                       ),
                       child: _HeaderView(
                         title: '                           GIVE NOW !',
-
                         buttonTitle: 'DONATE',
-                        
                       ),
                     ),
                   ],
@@ -165,7 +162,6 @@ class GenieScreenTwo extends StatelessWidget {
     );
   }
 }
-
 
 class _HeaderView extends StatelessWidget {
   final String title;
@@ -211,9 +207,11 @@ class _HeaderView extends StatelessWidget {
     );
   }
 }
+
 _launchURL() async {
-  const url = "https://donatenow.wfp.org/wfp/~my-donation?_ga=2.5228720.2064361959.1606154096-1087441000.1606154096"; 
-  if (await canLaunch(url)) { 
+  const url =
+      "https://donatenow.wfp.org/wfp/~my-donation?_ga=2.5228720.2064361959.1606154096-1087441000.1606154096";
+  if (await canLaunch(url)) {
     await launch(url);
   } else {
     throw 'Could not launch $url';

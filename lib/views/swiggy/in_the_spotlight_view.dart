@@ -10,7 +10,7 @@ class InTheSpotlightView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 15.0),
-      height: 338.0,
+      height: 300.0,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
@@ -49,7 +49,7 @@ class InTheSpotlightView extends StatelessWidget {
                 Icon(Icons.shopping_basket, size: 20.0),
                 UIHelper.horizontalSpaceSmall(),
                 Text(
-                  'In the Spotlight!',
+                  'Recent Donors',
                   style: Theme.of(context)
                       .textTheme
                       .headline4
@@ -58,13 +58,13 @@ class InTheSpotlightView extends StatelessWidget {
               ],
             ),
             UIHelper.verticalSpaceExtraSmall(),
-            Text(
+            /*Text(
               'Explore sponsored partner brands',
               style: Theme.of(context)
                   .textTheme
                   .bodyText1
                   .copyWith(color: Colors.grey),
-            ),
+            ),*/
           ],
         ),
       );

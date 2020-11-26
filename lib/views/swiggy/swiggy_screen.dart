@@ -43,16 +43,15 @@ class SwiggyScreen extends StatelessWidget {
                       InTheSpotlightView(),
                       CustomDividerView(),
                       PopularBrandsView(),
-                      CustomDividerView(),
                       //SwiggySafetyBannerView(),
                       //BestInSafetyViews(),
-                      CustomDividerView(),
+                      // CustomDividerView(),
                       //TopOffersViews(),
                       CustomDividerView(),
                       GenieView(),
                       CustomDividerView(),
                       //PopularCategoriesView(),
-                      CustomDividerView(),
+                      //CustomDividerView(),
                       RestaurantVerticalListView(
                         title: 'Regular Donor',
                         restaurants:
@@ -62,7 +61,7 @@ class SwiggyScreen extends StatelessWidget {
                       RestaurantVerticalListView(
                         title: 'DONORS Nearby',
                         restaurants:
-                            SpotlightBestTopFood.getPopularAllRestaurants(),
+                            SpotlightBestTopFood.getTopGroceryRestaurants(),
                         isAllRestaurantNearby: true,
                       ),
                       UIHelper.verticalSpaceMedium(),
@@ -132,8 +131,8 @@ class SwiggyScreen extends StatelessWidget {
                                   children: <Widget>[
                                     Container(
                                       height: 1.0,
-                                      width:
-                                          MediaQuery.of(context).size.width / 4,
+                                      width: MediaQuery.of(context).size.width /
+                                          1.33,
                                       color: Colors.grey,
                                     ),
                                   ],
@@ -142,7 +141,7 @@ class SwiggyScreen extends StatelessWidget {
                             ),
                             Positioned(
                               left: 140.0,
-                              top: 90.0,
+                              top: 120.0,
                               child: Image.asset(
                                 'assets/images/burger.png',
                                 height: 80.0,
@@ -194,14 +193,14 @@ class SwiggyScreen extends StatelessWidget {
                       .copyWith(fontSize: 18.0),
                 ),
               ),
-              onTap: () {
+              /*onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => OffersScreen(),
                   ),
                 );
-              },
+              },*/
             ),
           ],
         ),

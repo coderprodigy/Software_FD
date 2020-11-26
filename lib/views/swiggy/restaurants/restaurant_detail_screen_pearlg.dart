@@ -11,7 +11,7 @@ class RestaurantDetailScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Hostel I'),
+          title: Text('Pearl Grand'),
           actions: <Widget>[
             Icon(Icons.favorite_border),
             UIHelper.horizontalSpaceSmall(),
@@ -51,7 +51,7 @@ class _OrderNowView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    'Hostel I',
+                    'Pearl Grand',
                     style: Theme.of(context)
                         .textTheme
                         .subtitle2
@@ -61,14 +61,14 @@ class _OrderNowView extends StatelessWidget {
                   /*Text('South Indian',
                       style: Theme.of(context).textTheme.bodyText1),*/
                   UIHelper.verticalSpaceExtraSmall(),
-                  Text('Thapar University, \nPatiala\n',
+                  Text('The Mall Road, \nPatiala\n',
                       style: Theme.of(context).textTheme.bodyText1),
                   UIHelper.verticalSpaceMedium(),
                   CustomDividerView(dividerHeight: 1.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      _buildVerticalStack(context, '19 mins', '2km'),
+                      _buildVerticalStack(context, '24 mins', '2.1km'),
                       _buildVerticalStack(context, '', ''),
                       _buildVerticalStack(context, '', ''),
                     ],
@@ -129,17 +129,17 @@ class _OrderNowView extends StatelessWidget {
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Breakfast',
-              foods: RestaurantDetail.getBreakfast_h(),
+              foods: RestaurantDetail.getBreakfast_pg(),
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Lunch',
-              foods: RestaurantDetail.getAllTimeFavFoods_h(),
+              foods: RestaurantDetail.getAllTimeFavFoods_pg(),
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Dinner',
-              foods: RestaurantDetail.getOtherDishes_h(),
+              foods: RestaurantDetail.getOtherDishes_pg(),
             )
           ],
         ),

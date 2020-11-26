@@ -175,11 +175,11 @@ class AllRestaurant {
 
   static List<IndianFood> getPopularBrands() {
     return [
-      IndianFood(image: 'assets/images/food3.jpg', name: 'Sangeetha'),
+      IndianFood(image: 'assets/images/hostelJ_4.png', name: 'Hostel J'),
       IndianFood(image: 'assets/images/food5.jpg', name: 'Indian\nChai'),
-      IndianFood(image: 'assets/images/food1.jpg', name: 'Chai\nKings'),
-      IndianFood(image: 'assets/images/food8.jpg', name: 'Dosa\nMan'),
-      IndianFood(image: 'assets/images/food9.jpg', name: 'Subway'),
+      IndianFood(image: 'assets/images/hostelH_2.png', name: 'Hostel H'),
+      IndianFood(image: 'assets/images/images.jpg', name: 'Elevate'),
+      IndianFood(image: 'assets/images/hostelm.jpg', name: 'Hostel M'),
       IndianFood(image: 'assets/images/food4.jpg', name: 'KFC'),
     ];
   }
@@ -229,29 +229,27 @@ class LargeRestaurantBanner {
   static List<LargeRestaurantBanner> getPepsiSaveOurRestaurants() {
     return [
       LargeRestaurantBanner(
-        image: 'assets/images/food1.jpg',
-        title: 'Faasos',
-        subtitle: 'Fast Food, North Indian, Biryani, Desserts',
+        image: 'assets/images/front_hostel_k(1).jpg',
+        title: 'Hostel K',
+        subtitle: '',
       ),
       LargeRestaurantBanner(
         image: 'assets/images/food2.jpg',
         title: 'Hungry Pizza',
-        subtitle: 'Pizzas',
+        subtitle: '',
       ),
       LargeRestaurantBanner(
-        image: 'assets/images/food7.jpg',
-        title: 'Paradise\n Bhavan',
-        subtitle: 'Biryani, Chicken, Mutton',
+        image: 'assets/images/hostelA_1.png',
+        title: 'Hostel A',
+        subtitle: '',
       ),
       LargeRestaurantBanner(
         image: 'assets/images/food10.jpg',
         title: 'BBQ Nation',
-        subtitle: 'Chicken, Fried Chickent, Tandoori Chicken',
+        subtitle: '',
       ),
       LargeRestaurantBanner(
-          image: 'assets/images/food3.jpg',
-          title: 'OMB Biryani',
-          subtitle: 'Biryani'),
+          image: 'assets/images/food3.jpg', title: 'OMB Biryani', subtitle: ''),
     ];
   }
 }
