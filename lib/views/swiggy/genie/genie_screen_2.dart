@@ -31,6 +31,7 @@ class GenieScreenTwo extends StatelessWidget {
                   mainAxisSize: MainAxisSize.max,
                   children: <Widget>[
                     UIHelper.verticalSpaceMedium(),
+                    UIHelper.verticalSpaceMedium(),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
@@ -140,6 +141,12 @@ class GenieScreenTwo extends StatelessWidget {
                         ],
                       ),*/
                     ),
+                    UIHelper.verticalSpaceMedium(),
+                    UIHelper.verticalSpaceMedium(),
+                    UIHelper.verticalSpaceMedium(),
+                    UIHelper.verticalSpaceMedium(),
+                    UIHelper.verticalSpaceMedium(),
+                    UIHelper.verticalSpaceMedium(),
                     UIHelper.verticalSpaceMedium(),
                     Container(
                       padding: const EdgeInsets.all(20.0),
