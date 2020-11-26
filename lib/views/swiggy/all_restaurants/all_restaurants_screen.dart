@@ -31,11 +31,11 @@ class AllRestaurantsScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   _FoodHorizontalListView(),
-                  CategoriesView(),
+                  //CategoriesView(),
                   GroceryListView(
-                    title: 'ALL RESTAURANTS',
+                    title: 'ALL DONORS',
                   ),
-                  _RestaurantHorizontalListView(
+                  /*_RestaurantHorizontalListView(
                     title: 'Indian Restaurants',
                     restaurants: AllRestaurant.getIndianRestaurants(),
                   ),
@@ -58,15 +58,14 @@ class AllRestaurantsScreen extends StatelessWidget {
                   ),
                   _RestaurantListView(
                     restaurants: restaurantListOne,
-                  ),
+                  ),*/
                   _LargeRestaurantBannerView(
-                    title: 'PEPSI SAVE OUR RESTAURANTS',
-                    desc:
-                        'ORDER ANY SOFT DRINK & PEPSI WILL DONATE A\NMEAL TO A RESTAURANT WORKER',
+                    title: 'Incredible Donation, Incredible You',
+                    desc: 'Let us lower the graph of death toll due to HUNGER',
                     restaurants:
                         LargeRestaurantBanner.getPepsiSaveOurRestaurants(),
                   ),
-                  _RestaurantListView(
+                  /*_RestaurantListView(
                     restaurants: restaurantListThree,
                   ),
                   _RestaurantHorizontalListView(
@@ -75,7 +74,7 @@ class AllRestaurantsScreen extends StatelessWidget {
                   ),
                   _RestaurantListView(
                     restaurants: restaurantListOne,
-                  ),
+                  ),*/
                 ],
               ),
             ))
@@ -126,7 +125,7 @@ class AllRestaurantsScreen extends StatelessWidget {
             ),
             UIHelper.horizontalSpaceExtraSmall(),
             Spacer(),
-            Icon(Icons.local_offer),
+            /* Icon(Icons.local_offer),
             UIHelper.horizontalSpaceExtraSmall(),
             InkWell(
               child: Container(
@@ -147,7 +146,7 @@ class AllRestaurantsScreen extends StatelessWidget {
                   ),
                 );
               },
-            ),
+            ),*/
           ],
         ),
       );
@@ -171,15 +170,16 @@ class _FoodHorizontalListView extends StatelessWidget {
               Image.asset(
                 restaurants[index].image,
                 height: MediaQuery.of(context).size.height / 4,
-                width: MediaQuery.of(context).size.width / 2,
+                width: MediaQuery.of(context).size.width / 2.5,
+                fit: BoxFit.fitHeight,
               ),
-              Container(
+              /*Container(
                 margin: const EdgeInsets.all(10.0),
                 padding:
                     const EdgeInsets.symmetric(vertical: 6.0, horizontal: 10.0),
                 color: Colors.white,
                 child: Text('TRY NOW'),
-              ),
+              ),*/
               Positioned(
                 bottom: 1.0,
                 child: Container(
@@ -202,7 +202,7 @@ class _FoodHorizontalListView extends StatelessWidget {
     );
   }
 }
-
+/*
 class CategoriesView extends StatelessWidget {
   final categories = AllRestaurant.getPopularTypes();
 
@@ -260,7 +260,7 @@ class CategoriesView extends StatelessWidget {
       ),
     );
   }
-}
+}*/
 
 class _RestaurantHorizontalListView extends StatelessWidget {
   final String title;

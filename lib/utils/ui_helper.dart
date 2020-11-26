@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class UIHelper {
   static const double _VerticalSpaceExtraSmall = 4.0;
-  static const double _VerticalSpaceSmall = 8.0;
-  static const double _VerticalSpaceMedium = 16.0;
-  static const double _VerticalSpaceLarge = 24.0;
-  static const double _VerticalSpaceExtraLarge = 48;
+  static const double _VerticalSpaceSmall = 2.0;
+  static const double _VerticalSpaceMedium = 4.0;
+  static const double _VerticalSpaceLarge = 6.0;
+  static const double _VerticalSpaceExtraLarge = 12.0;
 
   static const double _HorizontalSpaceExtraSmall = 4;
   static const double _HorizontalSpaceSmall = 8.0;

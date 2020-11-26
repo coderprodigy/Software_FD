@@ -11,7 +11,7 @@ class RestaurantDetailScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Hostel I'),
+          title: Text('Hostel K'),
           actions: <Widget>[
             Icon(Icons.favorite_border),
             UIHelper.horizontalSpaceSmall(),
@@ -51,7 +51,7 @@ class _OrderNowView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    'Hostel I',
+                    'Hostel K',
                     style: Theme.of(context)
                         .textTheme
                         .subtitle2
@@ -68,7 +68,7 @@ class _OrderNowView extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      _buildVerticalStack(context, '19 mins', '2km'),
+                      _buildVerticalStack(context, '19 mins', '1.4km'),
                       _buildVerticalStack(context, '', ''),
                       _buildVerticalStack(context, '', ''),
                     ],

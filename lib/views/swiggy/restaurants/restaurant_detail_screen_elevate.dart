@@ -11,7 +11,7 @@ class RestaurantDetailScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Hostel I'),
+          title: Text('Elevate'),
           actions: <Widget>[
             Icon(Icons.favorite_border),
             UIHelper.horizontalSpaceSmall(),
@@ -51,7 +51,7 @@ class _OrderNowView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    'Hostel I',
+                    'Elevate',
                     style: Theme.of(context)
                         .textTheme
                         .subtitle2
@@ -61,14 +61,14 @@ class _OrderNowView extends StatelessWidget {
                   /*Text('South Indian',
                       style: Theme.of(context).textTheme.bodyText1),*/
                   UIHelper.verticalSpaceExtraSmall(),
-                  Text('Thapar University, \nPatiala\n',
+                  Text('Bhupindra Road, \nPatiala\n',
                       style: Theme.of(context).textTheme.bodyText1),
                   UIHelper.verticalSpaceMedium(),
                   CustomDividerView(dividerHeight: 1.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      _buildVerticalStack(context, '19 mins', '2km'),
+                      _buildVerticalStack(context, '19 mins', '1.9km'),
                       _buildVerticalStack(context, '', ''),
                       _buildVerticalStack(context, '', ''),
                     ],
@@ -101,7 +101,7 @@ class _OrderNowView extends StatelessWidget {
                         Icon(Icons.filter_vintage,
                             color: Colors.green, size: 12.0),
                         UIHelper.horizontalSpaceExtraSmall(),
-                        Text('PURE VEG',
+                        Text('VEG and NON-VEG',
                             style: Theme.of(context)
                                 .textTheme
                                 .subtitle2
@@ -129,17 +129,17 @@ class _OrderNowView extends StatelessWidget {
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Breakfast',
-              foods: RestaurantDetail.getBreakfast_h(),
+              foods: RestaurantDetail.getBreakfast_ele(),
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Lunch',
-              foods: RestaurantDetail.getAllTimeFavFoods_h(),
+              foods: RestaurantDetail.getAllTimeFavFoods_ele(),
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Dinner',
-              foods: RestaurantDetail.getOtherDishes_h(),
+              foods: RestaurantDetail.getOtherDishes_ele(),
             )
           ],
         ),

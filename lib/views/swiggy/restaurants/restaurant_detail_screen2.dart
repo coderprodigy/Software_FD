@@ -4,14 +4,14 @@ import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/custom_divider_view.dart';
 import 'package:swiggy_ui/widgets/veg_badge_view.dart';
 
-class RestaurantDetailScreen extends StatelessWidget {
+class RestaurantDetailScreenTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Hostel I'),
+          title: Text('Hostel M'),
           actions: <Widget>[
             Icon(Icons.favorite_border),
             UIHelper.horizontalSpaceSmall(),
@@ -129,17 +129,17 @@ class _OrderNowView extends StatelessWidget {
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Breakfast',
-              foods: RestaurantDetail.getBreakfast_h(),
+              foods: RestaurantDetail.getBreakfast(),
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
-              title: 'Lunch',
-              foods: RestaurantDetail.getAllTimeFavFoods_h(),
+              title: 'Mostly Donated',
+              foods: RestaurantDetail.getAllTimeFavFoods(),
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
-              title: 'Dinner',
-              foods: RestaurantDetail.getOtherDishes_h(),
+              title: 'Kozhukattaiyum & Paniyarams',
+              foods: RestaurantDetail.getOtherDishes(),
             )
           ],
         ),
