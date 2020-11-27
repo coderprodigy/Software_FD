@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "571230829417",
+    "firebase_url": "https://food-donation-69133.firebaseio.com",
+    "project_id": "food-donation-69133",
+    "storage_bucket": "food-donation-69133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571230829417:android:e56808b7045fca72ea9bf8",
+        "android_client_info": {
+          "package_name": "com.coderprodigy_software_fd.food_donation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571230829417-jato4fhglnjnmglifohfc1moul31j5pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZbuwnHTLzm2W_vP92nUyaP5ddIL58QBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571230829417-jato4fhglnjnmglifohfc1moul31j5pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
