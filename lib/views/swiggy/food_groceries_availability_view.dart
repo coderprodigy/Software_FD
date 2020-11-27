@@ -53,6 +53,10 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
             ],
           ),
           UIHelper.verticalSpaceLarge(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
           Stack(
             children: <Widget>[
               ClipRRect(
@@ -78,7 +82,7 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                               ),
                               UIHelper.verticalSpaceExtraSmall(),
                               Text(
-                                'No-contact delivery available',
+                                'Preview',
                                 style: Theme.of(context)
                                     .textTheme
                                     .bodyText1
@@ -126,18 +130,23 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
               ),
               Positioned(
                 top: -3.0,
-                right: -10.0,
+                right: 15.0,
                 child: ClipOval(
                   child: Image.asset(
-                    'assets/images/food11.jpg',
+                    'assets/images/donors.png',
                     width: 130.0,
-                    height: 100.0,
+                    height: 110.0,
                     fit: BoxFit.fill,
                   ),
                 ),
               ),
             ],
           ),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
+          UIHelper.verticalSpaceMedium(),
           UIHelper.verticalSpaceMedium(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -158,10 +167,11 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                   );
                 },
               ),
+              UIHelper.horizontalSpaceExtraSmall(),
               InkWell(
                 child: GenieGroceryCardView(
                   title: 'Syria',
-                  subtitle: 'Help Syrian Refugees',
+                  subtitle: 'Help Syrian \nRefugees',
                   image: 'assets/images/banner14.jpg',
                 ),
                 onTap: () {
@@ -173,6 +183,7 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                   );
                 },
               ),
+              UIHelper.horizontalSpaceExtraSmall(),
               InkWell(
                 child: GenieGroceryCardView(
                   title: 'Delhi',
