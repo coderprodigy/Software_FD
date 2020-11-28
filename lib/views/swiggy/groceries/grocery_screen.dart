@@ -35,10 +35,10 @@ class _GroceryHeaderView extends StatelessWidget {
     return Stack(
       children: <Widget>[
         Image.asset(
-          'assets/images/banner17.jpg',
+          'assets/images/banner19.jpg',
           height: MediaQuery.of(context).size.height / 2.1,
           width: double.infinity,
-          fit: BoxFit.cover,
+          fit: BoxFit.cover
         ),
         Positioned(
           top: 40.0,

@@ -18,7 +18,7 @@ class _SearchScreenState extends State<SearchScreen>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 2, vsync: this);
+    _tabController = TabController(length: 1, vsync: this);
   }
 
   @override
@@ -42,7 +42,7 @@ class _SearchScreenState extends State<SearchScreen>
                     Expanded(
                       child: TextField(
                         decoration: InputDecoration(
-                          hintText: 'Search for restaurants and food',
+                          hintText: 'Search Here',
                           hintStyle:
                               Theme.of(context).textTheme.subtitle2.copyWith(
                                     color: Colors.grey,
@@ -63,7 +63,7 @@ class _SearchScreenState extends State<SearchScreen>
               ),
               UIHelper.verticalSpaceExtraSmall(),
               Container(
-                width: MediaQuery.of(context).size.width / 1.1,
+                width: MediaQuery.of(context).size.width / 0.93,
                 child: TabBar(
                   unselectedLabelColor: Colors.grey,
                   labelColor: Colors.black,
@@ -82,14 +82,14 @@ class _SearchScreenState extends State<SearchScreen>
                     Tab(
                       child: Text('DONATORS'),
                     ),
-                    Tab(
+                   /* Tab(
                       child: Text('Dishes'),
-                    ),
+                    ),*/
                   ],
                 ),
               ),
-              UIHelper.verticalSpaceSmall(),
-              CustomDividerView(dividerHeight: 8.0),
+              
+             // CustomDividerView(dividerHeight: 8.0),
               _SearchListView(),
             ],
           ),
