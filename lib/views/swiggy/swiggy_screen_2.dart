@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../models/spotlight_best_top_food.dart';
+import '../../models/spotlight_best_top_ngo.dart';
 import '../../utils/app_colors.dart';
 import '../../utils/ui_helper.dart';
 import '../../widgets/custom_divider_view.dart';
@@ -14,7 +14,7 @@ import 'offers/offer_banner_view.dart';
 import 'offers/offer_screen.dart';
 import 'popular_brand_view.dart';
 import 'popular_categories_view.dart';
-import 'restaurants/restaurant_vertical_list_view.dart';
+import 'restaurants/ngo_vertical_list_view.dart';
 import 'swiggy_safety_banner_view.dart';
 import 'top_offer_view.dart';
 import 'top_picks_for_you_view.dart';
@@ -36,35 +36,34 @@ class SwiggyScreenTwo extends StatelessWidget {
                     children: <Widget>[
                       FoodGroceriesAvailabilityView(),
                       //TopPicksForYouView(),
-                      OfferBannerView(),
-                      CustomDividerView(),
+                      //OfferBannerView(),
+                      //CustomDividerView(),
                       //IndianFoodView(),
                       //CustomDividerView(),
                       //InTheSpotlightView(),
                       //CustomDividerView(),
-                      PopularBrandsView(),
-                      CustomDividerView(),
+                      //PopularBrandsView(),
+                      //CustomDividerView(),
                       //SwiggySafetyBannerView(),
                       //BestInSafetyViews(),
-                      CustomDividerView(),
+                      //CustomDividerView(),
                       //TopOffersViews(),
                       CustomDividerView(),
                       GenieView(),
                       CustomDividerView(),
                       //PopularCategoriesView(),
                       //CustomDividerView(),
-                      RestaurantVerticalListView(
-                        title: 'Regular Donor 2',
-                        restaurants:
-                            SpotlightBestTopFood.getPopularAllRestaurants(),
+                      NgoVerticalListView(
+                        title: 'NGOs',
+                        restaurantsOne: SpotlightBestNgo.getPopularAllNgo(),
                       ),
                       CustomDividerView(),
-                      RestaurantVerticalListView(
+                      /*RestaurantVerticalListView(
                         title: 'DONORS Nearby',
                         restaurants:
                             SpotlightBestTopFood.getPopularAllRestaurants(),
                         isAllRestaurantNearby: true,
-                      ),
+                      ),*/
                       UIHelper.verticalSpaceMedium(),
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 15.0),
@@ -73,7 +72,7 @@ class SwiggyScreenTwo extends StatelessWidget {
                         child: RaisedButton(
                           color: darkOrange,
                           child: Text(
-                            'See all Donors',
+                            'See all NGOs',
                             style: Theme.of(context)
                                 .textTheme
                                 .subtitle2
@@ -132,8 +131,8 @@ class SwiggyScreenTwo extends StatelessWidget {
                                   children: <Widget>[
                                     Container(
                                       height: 1.0,
-                                      width:
-                                          MediaQuery.of(context).size.width / 4,
+                                      width: MediaQuery.of(context).size.width /
+                                          1.33,
                                       color: Colors.grey,
                                     ),
                                   ],
@@ -142,7 +141,7 @@ class SwiggyScreenTwo extends StatelessWidget {
                             ),
                             Positioned(
                               left: 140.0,
-                              top: 90.0,
+                              top: 120.0,
                               child: Image.asset(
                                 'assets/images/burger.png',
                                 height: 80.0,
