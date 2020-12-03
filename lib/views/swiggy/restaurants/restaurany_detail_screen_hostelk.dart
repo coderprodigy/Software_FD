@@ -4,7 +4,7 @@ import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/custom_divider_view.dart';
 import 'package:swiggy_ui/widgets/veg_badge_view.dart';
 
-class RestaurantDetailScreen extends StatelessWidget {
+class RestaurantDetailScreenEight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

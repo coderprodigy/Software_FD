@@ -32,6 +32,8 @@ dependencies:
   google_fonts: any
   flutter_rating_bar: any
   flutter_swiper: any
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+4
 
 dev_dependencies:
   flutter_test:
