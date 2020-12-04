@@ -21,7 +21,7 @@ SwiggyUI App is a UI clone of famous food ordering app called [Swiggy](https://p
 
 |     Screen 1     |     Screen 2     |     Screen 3     |     Screen 4     |
 | :--------------: | :--------------: | :--------------: | :--------------: |
-| ![](Screen1.png) | ![](Screen3.png) | ![](Screen2.png) | ![](Screen4.png) |
+| ![](screenshots/Screen1.png) | ![](screenshots/Screen3.png) | ![](screenshots/Screen2.png) | ![](screenshots/Screen4.png) |
 
 <!-- Screen 5               |  Screen 6                       | Screen 7                            |  Screen 8
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
