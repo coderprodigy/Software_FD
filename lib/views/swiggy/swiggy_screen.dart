@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:swiggy_ui/views/swiggy/restaurants/restaurant_vertical_list_view_two.dart';
 
 import '../../models/spotlight_best_top_food.dart';
 import '../../utils/app_colors.dart';
@@ -58,7 +59,7 @@ class SwiggyScreen extends StatelessWidget {
                             SpotlightBestTopFood.getPopularAllRestaurants(),
                       ),
                       CustomDividerView(),
-                      RestaurantVerticalListView(
+                      RestaurantVerticalListViewTwo(
                         title: 'DONORS Nearby',
                         restaurants:
                             SpotlightBestTopFood.getTopGroceryRestaurants(),

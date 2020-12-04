@@ -4,14 +4,14 @@ import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/custom_divider_view.dart';
 import 'package:swiggy_ui/widgets/veg_badge_view.dart';
 
-class RestaurantDetailScreenThree extends StatelessWidget {
+class RestaurantDetailScreenBfexp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Elevate'),
+          title: Text('Breakfast Express'),
           actions: <Widget>[
             Icon(Icons.favorite_border),
             UIHelper.horizontalSpaceSmall(),
@@ -51,7 +51,7 @@ class _OrderNowView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    'Elevate',
+                    'Pearl Grand',
                     style: Theme.of(context)
                         .textTheme
                         .subtitle2
@@ -61,14 +61,14 @@ class _OrderNowView extends StatelessWidget {
                   /*Text('South Indian',
                       style: Theme.of(context).textTheme.bodyText1),*/
                   UIHelper.verticalSpaceExtraSmall(),
-                  Text('Bhupindra Road, \nPatiala\n',
+                  Text('The Mall Road, \nPatiala\n',
                       style: Theme.of(context).textTheme.bodyText1),
                   UIHelper.verticalSpaceMedium(),
                   CustomDividerView(dividerHeight: 1.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      _buildVerticalStack(context, '19 mins', '1.9km'),
+                      _buildVerticalStack(context, '24 mins', '2.1km'),
                       _buildVerticalStack(context, '', ''),
                       _buildVerticalStack(context, '', ''),
                     ],
@@ -101,7 +101,7 @@ class _OrderNowView extends StatelessWidget {
                         Icon(Icons.filter_vintage,
                             color: Colors.green, size: 12.0),
                         UIHelper.horizontalSpaceExtraSmall(),
-                        Text('VEG and NON-VEG',
+                        Text('PURE VEG',
                             style: Theme.of(context)
                                 .textTheme
                                 .subtitle2
@@ -129,17 +129,17 @@ class _OrderNowView extends StatelessWidget {
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Breakfast',
-              foods: RestaurantDetail.getBreakfast_ele(),
+              foods: RestaurantDetail.getBreakfast_pg(),
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Lunch',
-              foods: RestaurantDetail.getAllTimeFavFoods_ele(),
+              foods: RestaurantDetail.getAllTimeFavFoods_pg(),
             ),
             CustomDividerView(dividerHeight: 15.0),
             _FoodListView(
               title: 'Dinner',
-              foods: RestaurantDetail.getOtherDishes_ele(),
+              foods: RestaurantDetail.getOtherDishes_pg(),
             )
           ],
         ),

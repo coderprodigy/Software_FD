@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:swiggy_ui/views/swiggy/restaurants/restaurant_detail_screen_hostelm.dart';
 import 'package:swiggy_ui/views/swiggy/restaurants/restaurant_detail_screen_shubhvivah.dart';
-import 'package:swiggy_ui/widgets/food_list_item_view.dart';
+import 'package:swiggy_ui/widgets/ngo_list_item_view.dart';
 
-import '../../../models/spotlight_best_top_food.dart';
+import '../../../models/spotlight_best_top_ngo.dart';
 import '../../../utils/ui_helper.dart';
 import '../../../widgets/food_list_item_view.dart';
 import 'restaurant_detail_screen.dart';
 
-class RestaurantVerticalListView extends StatelessWidget {
+class NgoVerticalListView extends StatelessWidget {
   final String title;
-  final List<SpotlightBestTopFood> restaurants;
+  final List<SpotlightBestNgo> restaurantsOne;
   final bool isAllRestaurantNearby;
 
-  const RestaurantVerticalListView({
+  const NgoVerticalListView({
     Key key,
     @required this.title,
-    @required this.restaurants,
+    @required this.restaurantsOne,
     this.isAllRestaurantNearby = false,
   })  : assert(title != ''),
         super(key: key);
@@ -53,36 +53,36 @@ class RestaurantVerticalListView extends StatelessWidget {
           ListView.builder(
             shrinkWrap: true,
             physics: NeverScrollableScrollPhysics(),
-            itemCount: restaurants.length,
+            itemCount: restaurantsOne.length,
             itemBuilder: (context, index) => InkWell(
-              onTap: () {
-                if (index==0 || index==1) {
-                   Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => RestaurantDetailScreen(),
-                  ),
-                );
-                }
-                if (index==2 || index==3) {
+              onTap: () {/*
+                if (index == 0 || index == 1) {
                   Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => RestaurantDetailScreenFour(),
-                  ),
-                );
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => RestaurantDetailScreen(),
+                    ),
+                  );
                 }
-               if (index==4 || index==5) {
-                 Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => RestaurantDetailScreenSix(),
-                  ),
-                );
-               }
+                if (index == 2 || index == 3) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => RestaurantDetailScreenFour(),
+                    ),
+                  );
+                }
+                if (index == 4 || index == 5) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => RestaurantDetailScreenSix(),
+                    ),
+                  );
+                }*/
               },
-              child: FoodListItemView(
-                restaurant: restaurants[index],
+              child: NgoListItemView(
+                restaurant: restaurantsOne[index],
               ),
             ),
           ),
