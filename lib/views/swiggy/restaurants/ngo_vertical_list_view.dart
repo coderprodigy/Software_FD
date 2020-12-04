@@ -55,7 +55,7 @@ class NgoVerticalListView extends StatelessWidget {
             physics: NeverScrollableScrollPhysics(),
             itemCount: restaurantsOne.length,
             itemBuilder: (context, index) => InkWell(
-              onTap: () {
+              onTap: () {/*
                 if (index == 0 || index == 1) {
                   Navigator.push(
                     context,
@@ -79,7 +79,7 @@ class NgoVerticalListView extends StatelessWidget {
                       builder: (context) => RestaurantDetailScreenSix(),
                     ),
                   );
-                }
+                }*/
               },
               child: NgoListItemView(
                 restaurant: restaurantsOne[index],

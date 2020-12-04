@@ -79,12 +79,12 @@ class SwiggyScreenTwo extends StatelessWidget {
                                 .copyWith(color: Colors.white, fontSize: 19.0),
                           ),
                           onPressed: () {
-                            Navigator.push(
+                            /*Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => AllRestaurantsScreen(),
                               ),
-                            );
+                            );*/
                           },
                         ),
                       ),
@@ -193,14 +193,14 @@ class SwiggyScreenTwo extends StatelessWidget {
                       .copyWith(fontSize: 18.0),
                 ),
               ),
-              onTap: () {
+              /*onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => OffersScreen(),
                   ),
                 );
-              },
+              },*/
             ),
           ],
         ),

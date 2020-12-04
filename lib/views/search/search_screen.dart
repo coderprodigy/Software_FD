@@ -80,7 +80,7 @@ class _SearchScreenState extends State<SearchScreen>
                   indicatorSize: TabBarIndicatorSize.tab,
                   tabs: [
                     Tab(
-                      child: Text('DONATORS'),
+                      child: Text('DONORS'),
                     ),
                    /* Tab(
                       child: Text('Dishes'),
