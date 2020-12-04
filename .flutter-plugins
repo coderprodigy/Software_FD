@@ -1,5 +1,4 @@
 # This is a generated file; do not edit or check into version control.
-<<<<<<< HEAD
 cloud_firestore=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.12.11/
 firebase_auth=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.14.0+9/
 firebase_core=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.5/
@@ -8,16 +7,3 @@ path_provider=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.o
 path_provider_linux=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
 path_provider_macos=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3/
 url_launcher=/Users/dilreet/mobile-dev/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-4.2.0+3/
-=======
-<<<<<<< HEAD
-path_provider=C:\\Users\\shivanu sharma\\Desktop\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.11\\
-path_provider_linux=C:\\Users\\shivanu sharma\\Desktop\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-0.0.1+2\\
-path_provider_macos=C:\\Users\\shivanu sharma\\Desktop\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+3\\
-url_launcher=C:\\Users\\shivanu sharma\\Desktop\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-4.2.0+3\\
-=======
-path_provider=D:\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.11\\
-path_provider_linux=D:\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-0.0.1+2\\
-path_provider_macos=D:\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+3\\
-url_launcher=D:\\development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-4.2.0+3\\
->>>>>>> 23f59b623ea493826a1404afbb79b5971e0e2e36
->>>>>>> 734601c7e68638e3812b9fdd10028d73058f5725

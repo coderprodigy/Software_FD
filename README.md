@@ -1,21 +1,21 @@
-# SwiggyUI
+# Food Donation
+<!-- 
+SwiggyUI App is a UI clone of famous food ordering app called [Swiggy](https://play.google.com/store/apps/details?id=in.swiggy.android) built using Flutter. Show some ❤️ and star ⭐ the repo if you liked it, it makes me to share more open source flutter projects. -->
 
-SwiggyUI App is a UI clone of famous food ordering app called [Swiggy](https://play.google.com/store/apps/details?id=in.swiggy.android) built using Flutter. Show some ❤️ and star ⭐ the repo if you liked it, it makes me to share more open source flutter projects.
-
-![Github Followers](https://img.shields.io/github/followers/vinothvino42?label=Follow&style=social)
+<!-- ![Github Followers](https://img.shields.io/github/followers/vinothvino42?label=Follow&style=social)
 ![GitHub stars](https://img.shields.io/github/stars/vinothvino42/SwiggyUI?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/vinothvino42/SwiggyUI?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/vinothvino42/SwiggyUI?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/vinothvino42?label=Follow&style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/vinothvino42?label=Follow&style=social) -->
 
-<a href="https://www.linkedin.com/in/vinothvino42/">
+<!-- <a href="https://www.linkedin.com/in/vinothvino42/">
     <img src="https://img.shields.io/badge/Support-Recommend%2FEndorse%20me%20on%20Linkedin-blue?style=for-the-badge&logo=linkedin" alt="Support me on LinkedIn" /></a>
-    
+     -->
 ## Screenshots
-### Swiggy
+### Food Donation
 
 - Initial Views
-
+<!-- 
 Screen 1               |  Screen 2                       | Screen 3                            |  Screen 4 
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](screenshots/swiggy1.jpg)|![](screenshots/swiggy2.jpg)|![](screenshots/swiggy3.jpg)|![](screenshots/swiggy4.jpg)|
@@ -63,7 +63,7 @@ Screen 1               |  Screen 2
 Screen 1               |  Screen 2                                 
 :-------------------------:|:-------------------------:
 ![](screenshots/account1.jpg)|![](screenshots/account2.jpg)|
-
+ -->
 
 <p align="justify">
   Made With Flutter 💙

@@ -1,10 +1,11 @@
 
 // import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
+import 'package:swiggy_ui/services/auth.dart';
 //import 'package:swiggy_ui/views/home_donor.dart';
 import './../home_donor.dart';
 import './../home_bottom_navigation_screen.dart';
-import 'signup.dart';
+import 'signup.dart'; 
 
 class WelcomeBackPage extends StatefulWidget {
   @override
@@ -12,8 +13,11 @@ class WelcomeBackPage extends StatefulWidget {
 }
 
 class _WelcomeBackPageState extends State<WelcomeBackPage> {
+  
+  final AuthService _auth = AuthService();
+
   TextEditingController email =
-      TextEditingController(text: 'example@email.com');
+      TextEditingController(text: 'foodie@gmail.com');
 
   TextEditingController password = TextEditingController(text: '12345678');
 
@@ -52,10 +56,31 @@ class _WelcomeBackPageState extends State<WelcomeBackPage> {
     Widget loginButton = Positioned(
       left: MediaQuery.of(context).size.width / 8,
       bottom: 40,
+
+      // child: RaisedButton(
+      //     child: Text('sign in anon'),
+      //     onPressed: () async {
+      //       dynamic result = await _auth.signInAnon();
+      //       if(result == null){
+      //         print('error signing in');
+      //       } 
+      //       else {
+      //         print('signed in');
+      //         print('User ID is:');
+      //         print(result.uid);
+      //       }
+      //     },
+      //   ),
+
+
+ 
       child: InkWell(
         onTap: () {
           Navigator.of(context)
               .push(MaterialPageRoute(builder: (_) => HomeBottomNavigationScreenTwo()));
+              // .push(MaterialPageRoute(builder: (_) => async {
+              //   await _auth.signInAnon();
+              // }));
         },
         child: Container(
           width: MediaQuery.of(context).size.width / 3.1,
@@ -91,7 +116,8 @@ class _WelcomeBackPageState extends State<WelcomeBackPage> {
     Widget loginButton1 = Positioned(
       left: MediaQuery.of(context).size.width / 2,
       bottom: 40,
-      child: InkWell(
+      
+      child:  InkWell(
         onTap: () {
           Navigator.of(context)
               .push(MaterialPageRoute(builder: (_) => HomeBottomNavigationScreen()));
