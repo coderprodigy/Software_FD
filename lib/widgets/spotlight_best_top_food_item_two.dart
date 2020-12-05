@@ -3,11 +3,12 @@ import 'package:swiggy_ui/models/spotlight_best_top_food.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/views/swiggy/restaurants/restaurant_detail_screen.dart';
 import 'package:swiggy_ui/views/swiggy/restaurants/restaurant_detail_screen_Breakfastexp.dart';
+import 'package:swiggy_ui/views/swiggy/restaurants/restaurant_detail_screen_hostelH.dart';
 
-class SpotlightBestTopFoodItem extends StatelessWidget {
+class SpotlightBestTopFoodItemTwo extends StatelessWidget {
   final SpotlightBestTopFood restaurant;
 
-  const SpotlightBestTopFoodItem({
+  const SpotlightBestTopFoodItemTwo({
     Key key,
     @required this.restaurant,
   }) : super(key: key);
@@ -19,7 +20,7 @@ class SpotlightBestTopFoodItem extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => RestaurantDetailScreenBfexp(),
+            builder: (context) => RestaurantDetailScreenHostelH(),
           ),
         );
       },
