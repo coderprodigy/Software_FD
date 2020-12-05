@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:swiggy_ui/models/spotlight_best_top_food.dart';
 import 'package:swiggy_ui/utils/ui_helper.dart';
 import 'package:swiggy_ui/widgets/spotlight_best_top_food_item.dart';
+//import 'package:swiggy_ui/widgets/spotlight_best_top_food_item_two.dart';
+import './../../widgets/spotlight_best_top_food_item_two.dart';
 
 class InTheSpotlightView extends StatelessWidget {
   final restaurants = SpotlightBestTopFood.getSpotlightRestaurants();
@@ -28,7 +30,7 @@ class InTheSpotlightView extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
                     SpotlightBestTopFoodItem(restaurant: restaurants[index][0]),
-                    SpotlightBestTopFoodItem(restaurant: restaurants[index][1])
+                    SpotlightBestTopFoodItem(restaurant: restaurants[index][1]),
                   ],
                 ),
               ),
